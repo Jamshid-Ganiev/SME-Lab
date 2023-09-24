@@ -1,0 +1,9 @@
+/home/jamshid/Desktop/SME-Lab/week-4-homework/build/my_package/CMakeFiles/uninstall.dir
+/home/jamshid/Desktop/SME-Lab/week-4-homework/build/my_package/CMakeFiles/my_package_uninstall.dir
+/home/jamshid/Desktop/SME-Lab/week-4-homework/build/my_package/CMakeFiles/test.dir
+/home/jamshid/Desktop/SME-Lab/week-4-homework/build/my_package/CMakeFiles/edit_cache.dir
+/home/jamshid/Desktop/SME-Lab/week-4-homework/build/my_package/CMakeFiles/rebuild_cache.dir
+/home/jamshid/Desktop/SME-Lab/week-4-homework/build/my_package/CMakeFiles/list_install_components.dir
+/home/jamshid/Desktop/SME-Lab/week-4-homework/build/my_package/CMakeFiles/install.dir
+/home/jamshid/Desktop/SME-Lab/week-4-homework/build/my_package/CMakeFiles/install/local.dir
+/home/jamshid/Desktop/SME-Lab/week-4-homework/build/my_package/CMakeFiles/install/strip.dir
