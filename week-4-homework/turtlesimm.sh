@@ -5,7 +5,7 @@
 # It stops the turtle when the spiral is complete.
 
 # Source the ROS 2 environment setup script
-source /opt/ros/humble/setup.bash  # Replace 'humble' with your ROS 2 distribution
+source /opt/ros/humble/setup.bash
 
 # Start the TurtleSim
 ros2 run turtlesim turtlesim_node &
