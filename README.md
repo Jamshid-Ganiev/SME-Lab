@@ -15,3 +15,13 @@ The script performs the following actions:
 - Sets the background color of the TurtleSim window.
 - Guides the turtle to create a visually appealing spiral pattern by repeatedly changing its pen color, moving it forward, and turning it.
 - Stops the turtle gracefully when the spiral drawing is complete.
+
+# My ROS 2 Project
+
+## How it Works
+- This project includes a ROS 2 package named "my_package."
+- Inside "my_package," there is a Python node called "my_node" defined in the `my_node.py` script.
+- When you run the `my_node` executable, it does the following:
+  - Initializes a ROS 2 node.
+  - Logs the message "Hello, ROS 2!" to the console using the `rclpy` library.
+  - The node continues running until you stop it with a keyboard interrupt (Ctrl+C).
