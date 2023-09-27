@@ -18,6 +18,8 @@ The script performs the following actions:
 
 # My ROS 2 Project
 
+[Beginner: Client libraries](../../tree/main/week-4-homework/ros2_ws)
+
 ## How it Works
 - This project includes a ROS 2 package named "my_package."
 - Inside "my_package," there is a Python node called "my_node" defined in the `my_node.py` script.
