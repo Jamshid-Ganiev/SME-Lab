@@ -1,0 +1,9 @@
+[0.067s] Invoking command in '/home/jamshid/Desktop/SME-Lab/week-5-homework/action/ros2_ws/build/action_tutorials_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jamshid/Desktop/SME-Lab/week-5-homework/action/ros2_ws/src/action_tutorials_interfaces -DCMAKE_INSTALL_PREFIX=/home/jamshid/Desktop/SME-Lab/week-5-homework/action/ros2_ws/install/action_tutorials_interfaces
+[0.080s] -- Configuring incomplete, errors occurred!
+[0.082s] [31mCMake Error at CMakeLists.txt:33:
+[0.083s]   Parse error.  Expected "(", got newline with text "
+[0.084s] 
+[0.085s]   ".
+[0.085s] 
+[0.086s] [0m
+[0.087s] Invoked command in '/home/jamshid/Desktop/SME-Lab/week-5-homework/action/ros2_ws/build/action_tutorials_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jamshid/Desktop/SME-Lab/week-5-homework/action/ros2_ws/src/action_tutorials_interfaces -DCMAKE_INSTALL_PREFIX=/home/jamshid/Desktop/SME-Lab/week-5-homework/action/ros2_ws/install/action_tutorials_interfaces
