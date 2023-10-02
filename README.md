@@ -37,3 +37,7 @@ The script performs the following actions:
 ### Multiple nodes in a single process
 ![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/04756a9a-b14d-4bcc-9fa3-1d17e672c831)
 
+### Talker and Listener | C++
+![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/788bfe31-d387-4da1-be7b-4d2c1a64430f)
+
+
