@@ -32,4 +32,6 @@ The script performs the following actions:
 ## week 3 | Action & Client Python | Multiple nodes in a single process
 ### fibonacci sequence snapshot:
 ![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/d5d9cf43-d2e8-4187-b994-d8d9026cdb34)
+![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/264c61c2-c3be-4c72-aa2b-34e2868dab0c)
+
 
