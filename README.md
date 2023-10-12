@@ -15,6 +15,8 @@ The script performs the following actions:
 - Sets the background color of the TurtleSim window.
 - Guides the turtle to create a visually appealing spiral pattern by repeatedly changing its pen color, moving it forward, and turning it.
 - Stops the turtle gracefully when the spiral drawing is complete.
+  ![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/341402c6-ed27-4afc-8b6b-50d9f37a5c65)
+
 
 # My ROS 2 Project
 
