@@ -23,9 +23,6 @@ The script performs the following actions:
 
   ![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/0ab2bfd5-7e16-45d2-94f8-882ac68e236e)
 
-
-
-
 # My ROS 2 Project
 
 [Beginner: Client libraries](https://github.com/Jamshid-Ganiev/SME-Lab/tree/main/week-4-homework/ros2_ws)
