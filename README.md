@@ -19,6 +19,10 @@ The script performs the following actions:
   <hr/>
   
   ![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/712fced8-59a6-4faa-ba66-bb675cb8e0a8)
+  <hr/>
+
+  ![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/0ab2bfd5-7e16-45d2-94f8-882ac68e236e)
+
 
 
 
