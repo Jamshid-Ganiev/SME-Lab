@@ -1,0 +1,152 @@
+[0.899s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'bag_reading_cpp']
+[0.899s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['bag_reading_cpp'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa9015a8580>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa9015a8610>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa9015a8610>>)
+[0.940s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.941s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.941s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.941s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.941s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.941s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.941s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(bag_reading_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(bag_reading_cpp) by extension 'ignore'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(bag_reading_cpp) by extension 'ignore_ament_install'
+[0.952s] Level 1:colcon.colcon_core.package_identification:_identify(bag_reading_cpp) by extensions ['colcon_pkg']
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(bag_reading_cpp) by extension 'colcon_pkg'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(bag_reading_cpp) by extensions ['colcon_meta']
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(bag_reading_cpp) by extension 'colcon_meta'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(bag_reading_cpp) by extensions ['ros']
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(bag_reading_cpp) by extension 'ros'
+[0.955s] DEBUG:colcon.colcon_core.package_identification:Package 'bag_reading_cpp' with type 'ros.ament_cmake' and name 'bag_reading_cpp'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(bag_recorder_nodes) by extensions ['ignore', 'ignore_ament_install']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(bag_recorder_nodes) by extension 'ignore'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(bag_recorder_nodes) by extension 'ignore_ament_install'
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(bag_recorder_nodes) by extensions ['colcon_pkg']
+[0.955s] Level 1:colcon.colcon_core.package_identification:_identify(bag_recorder_nodes) by extension 'colcon_pkg'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(bag_recorder_nodes) by extensions ['colcon_meta']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(bag_recorder_nodes) by extension 'colcon_meta'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(bag_recorder_nodes) by extensions ['ros']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(bag_recorder_nodes) by extension 'ros'
+[0.956s] DEBUG:colcon.colcon_core.package_identification:Package 'bag_recorder_nodes' with type 'ros.ament_cmake' and name 'bag_recorder_nodes'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.956s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(sync_async_node_example_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(sync_async_node_example_cpp) by extension 'ignore'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(sync_async_node_example_cpp) by extension 'ignore_ament_install'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(sync_async_node_example_cpp) by extensions ['colcon_pkg']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(sync_async_node_example_cpp) by extension 'colcon_pkg'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(sync_async_node_example_cpp) by extensions ['colcon_meta']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(sync_async_node_example_cpp) by extension 'colcon_meta'
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(sync_async_node_example_cpp) by extensions ['ros']
+[0.957s] Level 1:colcon.colcon_core.package_identification:_identify(sync_async_node_example_cpp) by extension 'ros'
+[0.957s] DEBUG:colcon.colcon_core.package_identification:Package 'sync_async_node_example_cpp' with type 'ros.ament_cmake' and name 'sync_async_node_example_cpp'
+[0.958s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.958s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.958s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.958s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.958s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.014s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'bag_recorder_nodes' in 'bag_recorder_nodes'
+[1.014s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sync_async_node_example_cpp' in 'sync_async_node_example_cpp'
+[1.038s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.038s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.065s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install
+[1.077s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install
+[1.091s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 284 installed packages in /opt/ros/humble
+[1.092s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'bag_reading_cpp' build argument 'cmake_args' from command line to 'None'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'bag_reading_cpp' build argument 'cmake_target' from command line to 'None'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'bag_reading_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'bag_reading_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'bag_reading_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'bag_reading_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'bag_reading_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'bag_reading_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'bag_reading_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.190s] DEBUG:colcon.colcon_core.verb:Building package 'bag_reading_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/build/bag_reading_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp', 'merge_install': False, 'path': '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/bag_reading_cpp', 'symlink_install': False, 'test_result_base': None}
+[1.204s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.217s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.218s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/bag_reading_cpp' with build type 'ament_cmake'
+[1.218s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/bag_reading_cpp'
+[1.241s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.241s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.241s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/build/bag_reading_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/bag_reading_cpp -DCMAKE_INSTALL_PREFIX=/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp
+[3.488s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/build/bag_reading_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/bag_reading_cpp -DCMAKE_INSTALL_PREFIX=/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp
+[3.489s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/build/bag_reading_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/build/bag_reading_cpp -- -j2 -l2
+[9.146s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/build/bag_reading_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/build/bag_reading_cpp -- -j2 -l2
+[9.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/build/bag_reading_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/build/bag_reading_cpp
+[9.240s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bag_reading_cpp)
+[9.243s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/build/bag_reading_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/build/bag_reading_cpp
+[9.262s] Level 1:colcon.colcon_core.environment:checking '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp' for CMake module files
+[9.263s] Level 1:colcon.colcon_core.environment:checking '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp' for CMake config files
+[9.263s] Level 1:colcon.colcon_core.shell:create_environment_hook('bag_reading_cpp', 'cmake_prefix_path')
+[9.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/bag_reading_cpp/hook/cmake_prefix_path.ps1'
+[9.285s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/bag_reading_cpp/hook/cmake_prefix_path.dsv'
+[9.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/bag_reading_cpp/hook/cmake_prefix_path.sh'
+[9.287s] Level 1:colcon.colcon_core.environment:checking '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/lib'
+[9.287s] Level 1:colcon.colcon_core.environment:checking '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/bin'
+[9.288s] Level 1:colcon.colcon_core.environment:checking '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/lib/pkgconfig/bag_reading_cpp.pc'
+[9.288s] Level 1:colcon.colcon_core.environment:checking '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/lib/python3.10/site-packages'
+[9.288s] Level 1:colcon.colcon_core.environment:checking '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/bin'
+[9.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/bag_reading_cpp/package.ps1'
+[9.310s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/bag_reading_cpp/package.dsv'
+[9.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/bag_reading_cpp/package.sh'
+[9.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/bag_reading_cpp/package.bash'
+[9.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/bag_reading_cpp/package.zsh'
+[9.317s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/colcon-core/packages/bag_reading_cpp)
+[9.377s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bag_reading_cpp)
+[9.392s] Level 1:colcon.colcon_core.environment:checking '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp' for CMake module files
+[9.392s] Level 1:colcon.colcon_core.environment:checking '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp' for CMake config files
+[9.393s] Level 1:colcon.colcon_core.shell:create_environment_hook('bag_reading_cpp', 'cmake_prefix_path')
+[9.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/bag_reading_cpp/hook/cmake_prefix_path.ps1'
+[9.406s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/bag_reading_cpp/hook/cmake_prefix_path.dsv'
+[9.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/bag_reading_cpp/hook/cmake_prefix_path.sh'
+[9.411s] Level 1:colcon.colcon_core.environment:checking '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/lib'
+[9.411s] Level 1:colcon.colcon_core.environment:checking '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/bin'
+[9.411s] Level 1:colcon.colcon_core.environment:checking '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/lib/pkgconfig/bag_reading_cpp.pc'
+[9.412s] Level 1:colcon.colcon_core.environment:checking '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/lib/python3.10/site-packages'
+[9.412s] Level 1:colcon.colcon_core.environment:checking '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/bin'
+[9.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/bag_reading_cpp/package.ps1'
+[9.427s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/bag_reading_cpp/package.dsv'
+[9.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/bag_reading_cpp/package.sh'
+[9.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/bag_reading_cpp/package.bash'
+[9.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/bag_reading_cpp/package.zsh'
+[9.431s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/colcon-core/packages/bag_reading_cpp)
+[9.432s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.433s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.433s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.433s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.456s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.456s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.456s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.475s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.493s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/local_setup.ps1'
+[9.494s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/_local_setup_util_ps1.py'
+[9.496s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/setup.ps1'
+[9.516s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/local_setup.sh'
+[9.516s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/_local_setup_util_sh.py'
+[9.517s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/setup.sh'
+[9.535s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/local_setup.bash'
+[9.535s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/setup.bash'
+[9.549s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/local_setup.zsh'
+[9.550s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/setup.zsh'

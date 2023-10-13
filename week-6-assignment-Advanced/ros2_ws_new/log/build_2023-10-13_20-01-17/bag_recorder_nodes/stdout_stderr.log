@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target simple_bag_recorder[0m
+[100%] Built target simple_bag_recorder
+-- Install configuration: ""
+-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/bag_recorder_nodes/lib/bag_recorder_nodes/simple_bag_recorder
+-- Set runtime path of "/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/bag_recorder_nodes/lib/bag_recorder_nodes/simple_bag_recorder" to ""
+-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/bag_recorder_nodes/share/ament_index/resource_index/package_run_dependencies/bag_recorder_nodes
+-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/bag_recorder_nodes/share/ament_index/resource_index/parent_prefix_path/bag_recorder_nodes
+-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/ament_prefix_path.sh
+-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/ament_prefix_path.dsv
+-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/path.sh
+-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/path.dsv
+-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.bash
+-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.sh
+-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.zsh
+-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.dsv
+-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/bag_recorder_nodes/share/bag_recorder_nodes/package.dsv
+-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/bag_recorder_nodes/share/ament_index/resource_index/packages/bag_recorder_nodes
+-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/bag_recorder_nodes/share/bag_recorder_nodes/cmake/bag_recorder_nodesConfig.cmake
+-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/bag_recorder_nodes/share/bag_recorder_nodes/cmake/bag_recorder_nodesConfig-version.cmake
+-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/bag_recorder_nodes/share/bag_recorder_nodes/package.xml

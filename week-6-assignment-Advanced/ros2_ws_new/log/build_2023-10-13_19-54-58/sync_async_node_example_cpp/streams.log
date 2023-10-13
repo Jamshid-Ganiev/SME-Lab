@@ -1,0 +1,22 @@
+[0.121s] Invoking command in '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/build/sync_async_node_example_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/build/sync_async_node_example_cpp -- -j2 -l2
+[0.183s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.406s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.444s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.449s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.455s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.473s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.498s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.581s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.583s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.803s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.064s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[1.065s]   ament_target_dependencies() the passed package name 'example_interfaces'
+[1.065s]   was not found before
+[1.065s] Call Stack (most recent call first):
+[1.065s]   CMakeLists.txt:21 (ament_target_dependencies)
+[1.065s] 
+[1.065s] [0m
+[1.067s] -- Configuring incomplete, errors occurred!
+[1.067s] See also "/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/build/sync_async_node_example_cpp/CMakeFiles/CMakeOutput.log".
+[1.077s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[1.080s] Invoked command in '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/build/sync_async_node_example_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/build/sync_async_node_example_cpp -- -j2 -l2

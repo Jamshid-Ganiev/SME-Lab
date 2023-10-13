@@ -1,0 +1,161 @@
+[0.000000] (-) TimerEvent: {}
+[0.003179] (-) JobUnselected: {'identifier': 'bag_recorder_nodes'}
+[0.003390] (-) JobUnselected: {'identifier': 'sync_async_node_example_cpp'}
+[0.003563] (bag_reading_cpp) JobQueued: {'identifier': 'bag_reading_cpp', 'dependencies': OrderedDict()}
+[0.003659] (bag_reading_cpp) JobStarted: {'identifier': 'bag_reading_cpp'}
+[0.083243] (bag_reading_cpp) JobProgress: {'identifier': 'bag_reading_cpp', 'progress': 'cmake'}
+[0.084184] (bag_reading_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/bag_reading_cpp', '-DCMAKE_INSTALL_PREFIX=/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp'], 'cwd': '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/build/bag_reading_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'jamshid'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jamshid'), ('OLDPWD', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '3514'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jamshid'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jamshid'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jamshid-virtual-machine:@/tmp/.ICE-unix/1687,unix/jamshid-virtual-machine:/tmp/.ICE-unix/1687'), ('FASTRTPS_DEFAULT_PROFILES_FILE', 'path/to/ping.xml'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3ddbc261_7053_4f36_9da0_311050da9006'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CRJGC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/bag_recorder_nodes:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/sync_async_node_example_cpp:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/py_pubsub:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/my_package:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('RMW_FASTRTPS_USE_QOS_FROM_XML', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/build/bag_reading_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/bag_recorder_nodes:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/sync_async_node_example_cpp:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/my_package:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/py_pubsub:/opt/ros/humble')]), 'shell': False}
+[0.093038] (-) TimerEvent: {}
+[0.193711] (-) TimerEvent: {}
+[0.245155] (bag_reading_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.294066] (-) TimerEvent: {}
+[0.397641] (-) TimerEvent: {}
+[0.412183] (bag_reading_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.445693] (bag_reading_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.497902] (-) TimerEvent: {}
+[0.569403] (bag_reading_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.577053] (bag_reading_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.578070] (bag_reading_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.579354] (bag_reading_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.585755] (bag_reading_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.598767] (-) TimerEvent: {}
+[0.698407] (bag_reading_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.701768] (-) TimerEvent: {}
+[0.706701] (bag_reading_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.707044] (bag_reading_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.707579] (bag_reading_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.713008] (bag_reading_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.801991] (-) TimerEvent: {}
+[0.902738] (-) TimerEvent: {}
+[0.910545] (bag_reading_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[1.003068] (-) TimerEvent: {}
+[1.007703] (bag_reading_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.057064] (bag_reading_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.063058] (bag_reading_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.071769] (bag_reading_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.088367] (bag_reading_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.103662] (-) TimerEvent: {}
+[1.109938] (bag_reading_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.191520] (bag_reading_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.194611] (bag_reading_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.204425] (-) TimerEvent: {}
+[1.305638] (-) TimerEvent: {}
+[1.348438] (bag_reading_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.377815] (bag_reading_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.405880] (-) TimerEvent: {}
+[1.423449] (bag_reading_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.441883] (bag_reading_cpp) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.506182] (-) TimerEvent: {}
+[1.555285] (bag_reading_cpp) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.555501] (bag_reading_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.606592] (-) TimerEvent: {}
+[1.650155] (bag_reading_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.650515] (bag_reading_cpp) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.706993] (-) TimerEvent: {}
+[1.807996] (-) TimerEvent: {}
+[1.868919] (bag_reading_cpp) StdoutLine: {'line': b'-- Found rosbag2_cpp: 0.15.8 (/opt/ros/humble/share/rosbag2_cpp/cmake)\n'}
+[1.908572] (-) TimerEvent: {}
+[1.945767] (bag_reading_cpp) StdoutLine: {'line': b'-- Found turtlesim: 1.4.2 (/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/cmake)\n'}
+[2.009102] (-) TimerEvent: {}
+[2.109704] (-) TimerEvent: {}
+[2.115972] (bag_reading_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.210681] (-) TimerEvent: {}
+[2.216231] (bag_reading_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.216692] (bag_reading_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.216791] (bag_reading_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.220156] (bag_reading_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.222728] (bag_reading_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.222899] (bag_reading_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.224305] (bag_reading_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.229600] (bag_reading_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.243396] (bag_reading_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[2.248359] (bag_reading_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/build/bag_reading_cpp\n'}
+[2.263808] (bag_reading_cpp) CommandEnded: {'returncode': 0}
+[2.264428] (bag_reading_cpp) JobProgress: {'identifier': 'bag_reading_cpp', 'progress': 'build'}
+[2.264466] (bag_reading_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/build/bag_reading_cpp', '--', '-j2', '-l2'], 'cwd': '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/build/bag_reading_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'jamshid'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jamshid'), ('OLDPWD', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '3514'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jamshid'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jamshid'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jamshid-virtual-machine:@/tmp/.ICE-unix/1687,unix/jamshid-virtual-machine:/tmp/.ICE-unix/1687'), ('FASTRTPS_DEFAULT_PROFILES_FILE', 'path/to/ping.xml'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3ddbc261_7053_4f36_9da0_311050da9006'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CRJGC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/bag_recorder_nodes:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/sync_async_node_example_cpp:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/py_pubsub:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/my_package:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('RMW_FASTRTPS_USE_QOS_FROM_XML', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/build/bag_reading_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/bag_recorder_nodes:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/sync_async_node_example_cpp:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/my_package:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/py_pubsub:/opt/ros/humble')]), 'shell': False}
+[2.311405] (-) TimerEvent: {}
+[2.334024] (bag_reading_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/simple_bag_reader.dir/src/simple_bag_reader.cpp.o\x1b[0m\n'}
+[2.411840] (-) TimerEvent: {}
+[2.512399] (-) TimerEvent: {}
+[2.613059] (-) TimerEvent: {}
+[2.714724] (-) TimerEvent: {}
+[2.815521] (-) TimerEvent: {}
+[2.916398] (-) TimerEvent: {}
+[3.017085] (-) TimerEvent: {}
+[3.118042] (-) TimerEvent: {}
+[3.218648] (-) TimerEvent: {}
+[3.319591] (-) TimerEvent: {}
+[3.420583] (-) TimerEvent: {}
+[3.521664] (-) TimerEvent: {}
+[3.622940] (-) TimerEvent: {}
+[3.723557] (-) TimerEvent: {}
+[3.824157] (-) TimerEvent: {}
+[3.924935] (-) TimerEvent: {}
+[4.026169] (-) TimerEvent: {}
+[4.127075] (-) TimerEvent: {}
+[4.227634] (-) TimerEvent: {}
+[4.328457] (-) TimerEvent: {}
+[4.429259] (-) TimerEvent: {}
+[4.529746] (-) TimerEvent: {}
+[4.630684] (-) TimerEvent: {}
+[4.731266] (-) TimerEvent: {}
+[4.831932] (-) TimerEvent: {}
+[4.932546] (-) TimerEvent: {}
+[5.033642] (-) TimerEvent: {}
+[5.134378] (-) TimerEvent: {}
+[5.235268] (-) TimerEvent: {}
+[5.335995] (-) TimerEvent: {}
+[5.436701] (-) TimerEvent: {}
+[5.537561] (-) TimerEvent: {}
+[5.638121] (-) TimerEvent: {}
+[5.738651] (-) TimerEvent: {}
+[5.839502] (-) TimerEvent: {}
+[5.940341] (-) TimerEvent: {}
+[6.040951] (-) TimerEvent: {}
+[6.141697] (-) TimerEvent: {}
+[6.242812] (-) TimerEvent: {}
+[6.343408] (-) TimerEvent: {}
+[6.444179] (-) TimerEvent: {}
+[6.544758] (-) TimerEvent: {}
+[6.645582] (-) TimerEvent: {}
+[6.746373] (-) TimerEvent: {}
+[6.846892] (-) TimerEvent: {}
+[6.947440] (-) TimerEvent: {}
+[7.048313] (-) TimerEvent: {}
+[7.149040] (-) TimerEvent: {}
+[7.249940] (-) TimerEvent: {}
+[7.350487] (-) TimerEvent: {}
+[7.451416] (-) TimerEvent: {}
+[7.552032] (-) TimerEvent: {}
+[7.637327] (bag_reading_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable simple_bag_reader\x1b[0m\n'}
+[7.652386] (-) TimerEvent: {}
+[7.753182] (-) TimerEvent: {}
+[7.854209] (-) TimerEvent: {}
+[7.904845] (bag_reading_cpp) StdoutLine: {'line': b'[100%] Built target simple_bag_reader\n'}
+[7.920948] (bag_reading_cpp) CommandEnded: {'returncode': 0}
+[7.954796] (-) TimerEvent: {}
+[7.976516] (bag_reading_cpp) JobProgress: {'identifier': 'bag_reading_cpp', 'progress': 'install'}
+[7.991410] (bag_reading_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/build/bag_reading_cpp'], 'cwd': '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/build/bag_reading_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'jamshid'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jamshid'), ('OLDPWD', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '3514'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jamshid'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jamshid'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jamshid-virtual-machine:@/tmp/.ICE-unix/1687,unix/jamshid-virtual-machine:/tmp/.ICE-unix/1687'), ('FASTRTPS_DEFAULT_PROFILES_FILE', 'path/to/ping.xml'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3ddbc261_7053_4f36_9da0_311050da9006'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CRJGC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/bag_recorder_nodes:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/sync_async_node_example_cpp:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/py_pubsub:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/my_package:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('RMW_FASTRTPS_USE_QOS_FROM_XML', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/build/bag_reading_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/bag_recorder_nodes:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/sync_async_node_example_cpp:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/my_package:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/py_pubsub:/opt/ros/humble')]), 'shell': False}
+[8.004210] (bag_reading_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.005082] (bag_reading_cpp) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/lib/bag_reading_cpp/simple_bag_reader\n'}
+[8.007224] (bag_reading_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/lib/bag_reading_cpp/simple_bag_reader" to ""\n'}
+[8.007762] (bag_reading_cpp) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/ament_index/resource_index/package_run_dependencies/bag_reading_cpp\n'}
+[8.008122] (bag_reading_cpp) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/ament_index/resource_index/parent_prefix_path/bag_reading_cpp\n'}
+[8.008723] (bag_reading_cpp) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/bag_reading_cpp/environment/ament_prefix_path.sh\n'}
+[8.009292] (bag_reading_cpp) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/bag_reading_cpp/environment/ament_prefix_path.dsv\n'}
+[8.009957] (bag_reading_cpp) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/bag_reading_cpp/environment/path.sh\n'}
+[8.010282] (bag_reading_cpp) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/bag_reading_cpp/environment/path.dsv\n'}
+[8.013724] (bag_reading_cpp) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/bag_reading_cpp/local_setup.bash\n'}
+[8.015242] (bag_reading_cpp) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/bag_reading_cpp/local_setup.sh\n'}
+[8.015553] (bag_reading_cpp) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/bag_reading_cpp/local_setup.zsh\n'}
+[8.015669] (bag_reading_cpp) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/bag_reading_cpp/local_setup.dsv\n'}
+[8.016369] (bag_reading_cpp) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/bag_reading_cpp/package.dsv\n'}
+[8.016639] (bag_reading_cpp) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/ament_index/resource_index/packages/bag_reading_cpp\n'}
+[8.016841] (bag_reading_cpp) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/bag_reading_cpp/cmake/bag_reading_cppConfig.cmake\n'}
+[8.017065] (bag_reading_cpp) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/bag_reading_cpp/cmake/bag_reading_cppConfig-version.cmake\n'}
+[8.017599] (bag_reading_cpp) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/bag_reading_cpp/package.xml\n'}
+[8.018098] (bag_reading_cpp) CommandEnded: {'returncode': 0}
+[8.055430] (-) TimerEvent: {}
+[8.157625] (-) TimerEvent: {}
+[8.207517] (bag_reading_cpp) JobEnded: {'identifier': 'bag_reading_cpp', 'rc': 0}
+[8.208639] (-) EventReactorShutdown: {}

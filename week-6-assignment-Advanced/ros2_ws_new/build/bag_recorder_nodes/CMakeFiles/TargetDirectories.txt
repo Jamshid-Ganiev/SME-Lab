@@ -1,0 +1,10 @@
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/build/bag_recorder_nodes/CMakeFiles/uninstall.dir
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/build/bag_recorder_nodes/CMakeFiles/bag_recorder_nodes_uninstall.dir
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/build/bag_recorder_nodes/CMakeFiles/simple_bag_recorder.dir
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/build/bag_recorder_nodes/CMakeFiles/test.dir
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/build/bag_recorder_nodes/CMakeFiles/edit_cache.dir
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/build/bag_recorder_nodes/CMakeFiles/rebuild_cache.dir
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/build/bag_recorder_nodes/CMakeFiles/list_install_components.dir
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/build/bag_recorder_nodes/CMakeFiles/install.dir
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/build/bag_recorder_nodes/CMakeFiles/install/local.dir
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/build/bag_recorder_nodes/CMakeFiles/install/strip.dir

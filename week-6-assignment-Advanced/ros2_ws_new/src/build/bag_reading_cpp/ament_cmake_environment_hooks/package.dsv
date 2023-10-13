@@ -1,0 +1,4 @@
+source;share/bag_reading_cpp/local_setup.bash
+source;share/bag_reading_cpp/local_setup.dsv
+source;share/bag_reading_cpp/local_setup.sh
+source;share/bag_reading_cpp/local_setup.zsh

@@ -1,0 +1,16 @@
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/bag_recorder_nodes/lib/bag_recorder_nodes/simple_bag_recorder
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/bag_recorder_nodes/share/ament_index/resource_index/package_run_dependencies/bag_recorder_nodes
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/bag_recorder_nodes/share/ament_index/resource_index/parent_prefix_path/bag_recorder_nodes
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/ament_prefix_path.sh
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/ament_prefix_path.dsv
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/path.sh
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/bag_recorder_nodes/share/bag_recorder_nodes/environment/path.dsv
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.bash
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.sh
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.zsh
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/bag_recorder_nodes/share/bag_recorder_nodes/local_setup.dsv
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/bag_recorder_nodes/share/bag_recorder_nodes/package.dsv
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/bag_recorder_nodes/share/ament_index/resource_index/packages/bag_recorder_nodes
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/bag_recorder_nodes/share/bag_recorder_nodes/cmake/bag_recorder_nodesConfig.cmake
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/bag_recorder_nodes/share/bag_recorder_nodes/cmake/bag_recorder_nodesConfig-version.cmake
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/bag_recorder_nodes/share/bag_recorder_nodes/package.xml

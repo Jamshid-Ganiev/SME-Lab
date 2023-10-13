@@ -1,0 +1,154 @@
+[0.000000] (-) TimerEvent: {}
+[0.000525] (sync_async_node_example_cpp) JobQueued: {'identifier': 'sync_async_node_example_cpp', 'dependencies': OrderedDict()}
+[0.001173] (sync_async_node_example_cpp) JobStarted: {'identifier': 'sync_async_node_example_cpp'}
+[0.082613] (sync_async_node_example_cpp) JobProgress: {'identifier': 'sync_async_node_example_cpp', 'progress': 'cmake'}
+[0.084212] (sync_async_node_example_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/sync_async_node_example_cpp', '-DCMAKE_INSTALL_PREFIX=/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/sync_async_node_example_cpp'], 'cwd': '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/build/sync_async_node_example_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'jamshid'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jamshid'), ('OLDPWD', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '3514'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jamshid'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jamshid'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jamshid-virtual-machine:@/tmp/.ICE-unix/1687,unix/jamshid-virtual-machine:/tmp/.ICE-unix/1687'), ('FASTRTPS_DEFAULT_PROFILES_FILE', 'path/to/SyncAsync.xml'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3ddbc261_7053_4f36_9da0_311050da9006'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CRJGC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/py_pubsub:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/my_package:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('RMW_FASTRTPS_USE_QOS_FROM_XML', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/build/sync_async_node_example_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/my_package:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/py_pubsub:/opt/ros/humble')]), 'shell': False}
+[0.099679] (-) TimerEvent: {}
+[0.200427] (-) TimerEvent: {}
+[0.257835] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.302379] (-) TimerEvent: {}
+[0.373487] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.394156] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.408068] (-) TimerEvent: {}
+[0.497741] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.506023] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.507745] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.508107] (-) TimerEvent: {}
+[0.510156] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.513769] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.608744] (-) TimerEvent: {}
+[0.622957] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.628324] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.629249] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.630120] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.656512] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.709053] (-) TimerEvent: {}
+[0.810494] (-) TimerEvent: {}
+[0.879029] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.910687] (-) TimerEvent: {}
+[0.993366] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.011277] (-) TimerEvent: {}
+[1.047253] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.054089] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.063317] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.084523] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.106452] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.111810] (-) TimerEvent: {}
+[1.187518] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.190608] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.212282] (-) TimerEvent: {}
+[1.313025] (-) TimerEvent: {}
+[1.320030] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.360189] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.406036] (sync_async_node_example_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.413631] (-) TimerEvent: {}
+[1.420278] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.514208] (-) TimerEvent: {}
+[1.516295] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.516547] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.611337] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.611596] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.615028] (-) TimerEvent: {}
+[1.715907] (-) TimerEvent: {}
+[1.788234] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.816534] (-) TimerEvent: {}
+[1.876249] (sync_async_node_example_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.876467] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.876548] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.876623] (sync_async_node_example_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.876696] (sync_async_node_example_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.876772] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.876845] (sync_async_node_example_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.882713] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.889155] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[1.891971] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/build/sync_async_node_example_cpp\n'}
+[1.903715] (sync_async_node_example_cpp) CommandEnded: {'returncode': 0}
+[1.904401] (sync_async_node_example_cpp) JobProgress: {'identifier': 'sync_async_node_example_cpp', 'progress': 'build'}
+[1.904441] (sync_async_node_example_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/build/sync_async_node_example_cpp', '--', '-j2', '-l2'], 'cwd': '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/build/sync_async_node_example_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'jamshid'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jamshid'), ('OLDPWD', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '3514'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jamshid'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jamshid'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jamshid-virtual-machine:@/tmp/.ICE-unix/1687,unix/jamshid-virtual-machine:/tmp/.ICE-unix/1687'), ('FASTRTPS_DEFAULT_PROFILES_FILE', 'path/to/SyncAsync.xml'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3ddbc261_7053_4f36_9da0_311050da9006'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CRJGC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/py_pubsub:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/my_package:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('RMW_FASTRTPS_USE_QOS_FROM_XML', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/build/sync_async_node_example_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/my_package:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/py_pubsub:/opt/ros/humble')]), 'shell': False}
+[1.916952] (-) TimerEvent: {}
+[1.970842] (sync_async_node_example_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/SyncAsyncWriter.dir/src/sync_async_writer.cpp.o\x1b[0m\n'}
+[2.017383] (-) TimerEvent: {}
+[2.118082] (-) TimerEvent: {}
+[2.219150] (-) TimerEvent: {}
+[2.319873] (-) TimerEvent: {}
+[2.420592] (-) TimerEvent: {}
+[2.521316] (-) TimerEvent: {}
+[2.622071] (-) TimerEvent: {}
+[2.723244] (-) TimerEvent: {}
+[2.823945] (-) TimerEvent: {}
+[2.924672] (-) TimerEvent: {}
+[3.025469] (-) TimerEvent: {}
+[3.126602] (-) TimerEvent: {}
+[3.227269] (-) TimerEvent: {}
+[3.328167] (-) TimerEvent: {}
+[3.429183] (-) TimerEvent: {}
+[3.530155] (-) TimerEvent: {}
+[3.630796] (-) TimerEvent: {}
+[3.731345] (-) TimerEvent: {}
+[3.832482] (-) TimerEvent: {}
+[3.933381] (-) TimerEvent: {}
+[4.034219] (-) TimerEvent: {}
+[4.134963] (-) TimerEvent: {}
+[4.235558] (-) TimerEvent: {}
+[4.336395] (-) TimerEvent: {}
+[4.437317] (-) TimerEvent: {}
+[4.538537] (-) TimerEvent: {}
+[4.639345] (-) TimerEvent: {}
+[4.740470] (-) TimerEvent: {}
+[4.841317] (-) TimerEvent: {}
+[4.942273] (-) TimerEvent: {}
+[5.042782] (-) TimerEvent: {}
+[5.143807] (-) TimerEvent: {}
+[5.244645] (-) TimerEvent: {}
+[5.345438] (-) TimerEvent: {}
+[5.446397] (-) TimerEvent: {}
+[5.547206] (-) TimerEvent: {}
+[5.648104] (-) TimerEvent: {}
+[5.748859] (-) TimerEvent: {}
+[5.849353] (-) TimerEvent: {}
+[5.950290] (-) TimerEvent: {}
+[6.050840] (-) TimerEvent: {}
+[6.151438] (-) TimerEvent: {}
+[6.252073] (-) TimerEvent: {}
+[6.352548] (-) TimerEvent: {}
+[6.453010] (-) TimerEvent: {}
+[6.553516] (-) TimerEvent: {}
+[6.654245] (-) TimerEvent: {}
+[6.754933] (-) TimerEvent: {}
+[6.855744] (-) TimerEvent: {}
+[6.956607] (-) TimerEvent: {}
+[7.057716] (-) TimerEvent: {}
+[7.158360] (-) TimerEvent: {}
+[7.251733] (sync_async_node_example_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable SyncAsyncWriter\x1b[0m\n'}
+[7.258931] (-) TimerEvent: {}
+[7.359766] (-) TimerEvent: {}
+[7.460752] (-) TimerEvent: {}
+[7.561394] (-) TimerEvent: {}
+[7.598598] (sync_async_node_example_cpp) StdoutLine: {'line': b'[100%] Built target SyncAsyncWriter\n'}
+[7.618730] (sync_async_node_example_cpp) CommandEnded: {'returncode': 0}
+[7.661675] (-) TimerEvent: {}
+[7.664506] (sync_async_node_example_cpp) JobProgress: {'identifier': 'sync_async_node_example_cpp', 'progress': 'install'}
+[7.675847] (sync_async_node_example_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/build/sync_async_node_example_cpp'], 'cwd': '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/build/sync_async_node_example_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'jamshid'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jamshid'), ('OLDPWD', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '3514'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jamshid'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jamshid'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jamshid-virtual-machine:@/tmp/.ICE-unix/1687,unix/jamshid-virtual-machine:/tmp/.ICE-unix/1687'), ('FASTRTPS_DEFAULT_PROFILES_FILE', 'path/to/SyncAsync.xml'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3ddbc261_7053_4f36_9da0_311050da9006'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CRJGC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/py_pubsub:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/my_package:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('RMW_FASTRTPS_USE_QOS_FROM_XML', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/build/sync_async_node_example_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/my_package:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/py_pubsub:/opt/ros/humble')]), 'shell': False}
+[7.687495] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.693394] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/sync_async_node_example_cpp/lib/sync_async_node_example_cpp/SyncAsyncWriter\n'}
+[7.694638] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/sync_async_node_example_cpp/lib/sync_async_node_example_cpp/SyncAsyncWriter" to ""\n'}
+[7.695524] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/sync_async_node_example_cpp/share/ament_index/resource_index/package_run_dependencies/sync_async_node_example_cpp\n'}
+[7.696173] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/sync_async_node_example_cpp/share/ament_index/resource_index/parent_prefix_path/sync_async_node_example_cpp\n'}
+[7.696663] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/sync_async_node_example_cpp/share/sync_async_node_example_cpp/environment/ament_prefix_path.sh\n'}
+[7.697031] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/sync_async_node_example_cpp/share/sync_async_node_example_cpp/environment/ament_prefix_path.dsv\n'}
+[7.699037] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/sync_async_node_example_cpp/share/sync_async_node_example_cpp/environment/path.sh\n'}
+[7.699891] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/sync_async_node_example_cpp/share/sync_async_node_example_cpp/environment/path.dsv\n'}
+[7.699991] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/sync_async_node_example_cpp/share/sync_async_node_example_cpp/local_setup.bash\n'}
+[7.700094] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/sync_async_node_example_cpp/share/sync_async_node_example_cpp/local_setup.sh\n'}
+[7.700175] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/sync_async_node_example_cpp/share/sync_async_node_example_cpp/local_setup.zsh\n'}
+[7.700248] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/sync_async_node_example_cpp/share/sync_async_node_example_cpp/local_setup.dsv\n'}
+[7.700320] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/sync_async_node_example_cpp/share/sync_async_node_example_cpp/package.dsv\n'}
+[7.700390] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/sync_async_node_example_cpp/share/ament_index/resource_index/packages/sync_async_node_example_cpp\n'}
+[7.700464] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/sync_async_node_example_cpp/share/sync_async_node_example_cpp/cmake/sync_async_node_example_cppConfig.cmake\n'}
+[7.700566] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/sync_async_node_example_cpp/share/sync_async_node_example_cpp/cmake/sync_async_node_example_cppConfig-version.cmake\n'}
+[7.700670] (sync_async_node_example_cpp) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/install/sync_async_node_example_cpp/share/sync_async_node_example_cpp/package.xml\n'}
+[7.700746] (sync_async_node_example_cpp) CommandEnded: {'returncode': 0}
+[7.762558] (-) TimerEvent: {}
+[7.865630] (-) TimerEvent: {}
+[7.897957] (sync_async_node_example_cpp) JobEnded: {'identifier': 'sync_async_node_example_cpp', 'rc': 0}
+[7.901522] (-) EventReactorShutdown: {}

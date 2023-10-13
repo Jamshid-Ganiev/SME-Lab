@@ -1,0 +1,10 @@
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/build/bag_reading_cpp/CMakeFiles/uninstall.dir
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/build/bag_reading_cpp/CMakeFiles/bag_reading_cpp_uninstall.dir
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/build/bag_reading_cpp/CMakeFiles/simple_bag_reader.dir
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/build/bag_reading_cpp/CMakeFiles/test.dir
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/build/bag_reading_cpp/CMakeFiles/edit_cache.dir
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/build/bag_reading_cpp/CMakeFiles/rebuild_cache.dir
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/build/bag_reading_cpp/CMakeFiles/list_install_components.dir
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/build/bag_reading_cpp/CMakeFiles/install.dir
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/build/bag_reading_cpp/CMakeFiles/install/local.dir
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/build/bag_reading_cpp/CMakeFiles/install/strip.dir

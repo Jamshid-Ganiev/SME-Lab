@@ -1,0 +1,16 @@
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/lib/bag_reading_cpp/simple_bag_reader
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/ament_index/resource_index/package_run_dependencies/bag_reading_cpp
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/ament_index/resource_index/parent_prefix_path/bag_reading_cpp
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/bag_reading_cpp/environment/ament_prefix_path.sh
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/bag_reading_cpp/environment/ament_prefix_path.dsv
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/bag_reading_cpp/environment/path.sh
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/bag_reading_cpp/environment/path.dsv
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/bag_reading_cpp/local_setup.bash
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/bag_reading_cpp/local_setup.sh
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/bag_reading_cpp/local_setup.zsh
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/bag_reading_cpp/local_setup.dsv
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/bag_reading_cpp/package.dsv
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/ament_index/resource_index/packages/bag_reading_cpp
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/bag_reading_cpp/cmake/bag_reading_cppConfig.cmake
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/bag_reading_cpp/cmake/bag_reading_cppConfig-version.cmake
+/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws_new/src/install/bag_reading_cpp/share/bag_reading_cpp/package.xml
