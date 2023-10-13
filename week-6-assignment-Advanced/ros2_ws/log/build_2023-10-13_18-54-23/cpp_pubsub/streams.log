@@ -1,0 +1,52 @@
+[0.091s] Invoking command in '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/build/cpp_pubsub -- -j2 -l2
+[0.133s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.290s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.325s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.331s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.339s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.354s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.373s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.441s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.443s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.574s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.737s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.824s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.824s] -- Configured cppcheck include dirs: 
+[0.829s] -- Configured cppcheck exclude dirs and/or files: 
+[0.829s] -- Added test 'lint_cmake' to check CMake code style
+[0.829s] -- Added test 'uncrustify' to check C / C++ code style
+[0.829s] -- Configured uncrustify additional arguments: 
+[0.829s] -- Added test 'xmllint' to check XML markup files
+[0.832s] -- Configuring done
+[0.878s] -- Generating done
+[0.890s] -- Build files have been written to: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/build/cpp_pubsub
+[0.937s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.940s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.973s] [ 33%] Built target talker
+[0.982s] [ 66%] Built target listener
+[1.009s] [ 83%] [32mBuilding CXX object CMakeFiles/listener_with_topic_statistics.dir/src/member_function_with_topic_statistics.cpp.o[0m
+[10.734s] [100%] [32m[1mLinking CXX executable listener_with_topic_statistics[0m
+[11.285s] [100%] Built target listener_with_topic_statistics
+[11.305s] Invoked command in '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --build /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/build/cpp_pubsub -- -j2 -l2
+[11.390s] Invoking command in '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/build/cpp_pubsub
+[11.403s] -- Install configuration: ""
+[11.404s] -- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[11.405s] -- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[11.406s] -- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener_with_topic_statistics
+[11.410s] -- Set runtime path of "/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener_with_topic_statistics" to ""
+[11.412s] -- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[11.412s] -- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[11.414s] -- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[11.415s] -- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[11.417s] -- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[11.417s] -- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[11.420s] -- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[11.420s] -- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[11.420s] -- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[11.421s] -- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[11.421s] -- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[11.422s] -- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[11.423s] -- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[11.423s] -- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[11.423s] -- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[11.427s] Invoked command in '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/py_pubsub:/opt/ros/humble /usr/bin/cmake --install /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/build/cpp_pubsub

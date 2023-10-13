@@ -1,0 +1,606 @@
+[0.000000] (-) TimerEvent: {}
+[0.001544] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.001858] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.096436] (-) TimerEvent: {}
+[0.164717] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.166792] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[0.168988] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/build/turtlesim', '--', '-j2', '-l2'], 'cwd': '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'jamshid'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jamshid'), ('OLDPWD', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1687'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b7541f8258f5f0f5c4579cb76528e6c9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jamshid'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jamshid'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jamshid-virtual-machine:@/tmp/.ICE-unix/1687,unix/jamshid-virtual-machine:/tmp/.ICE-unix/1687'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/34beaef7_f6e1_4a95_a1b0_88eefa89af1e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CRJGC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b7541f8258f5f0f5c4579cb76528e6c9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim:/opt/ros/humble')]), 'shell': False}
+[0.196869] (-) TimerEvent: {}
+[0.295244] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_generator_c\x1b[0m\n'}
+[0.297661] (-) TimerEvent: {}
+[0.321449] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[0.341343] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target turtlesim__rosidl_generator_c\n'}
+[0.389725] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.397986] (-) TimerEvent: {}
+[0.432252] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_turtlesim\n'}
+[0.463267] (turtlesim) StdoutLine: {'line': b'[ 21%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[0.471531] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.498783] (-) TimerEvent: {}
+[0.522284] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.537340] (turtlesim) StdoutLine: {'line': b'[ 31%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[0.575683] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.590115] (turtlesim) StdoutLine: {'line': b'[ 41%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[0.599653] (-) TimerEvent: {}
+[0.637469] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_c\x1b[0m\n'}
+[0.659240] (turtlesim) StdoutLine: {'line': b'[ 51%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[0.672741] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_c\n'}
+[0.695410] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.700367] (-) TimerEvent: {}
+[0.769233] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[0.801038] (-) TimerEvent: {}
+[0.844995] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim_node\x1b[0m\n'}
+[0.901624] (-) TimerEvent: {}
+[1.000035] (turtlesim) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o\x1b[0m\n'}
+[1.001626] (-) TimerEvent: {}
+[1.102906] (-) TimerEvent: {}
+[1.204238] (-) TimerEvent: {}
+[1.305683] (-) TimerEvent: {}
+[1.311291] (turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[1.314867] (turtlesim) StdoutLine: {'line': b'writing turtlesim.egg-info/PKG-INFO\n'}
+[1.318590] (turtlesim) StdoutLine: {'line': b'writing dependency_links to turtlesim.egg-info/dependency_links.txt\n'}
+[1.321464] (turtlesim) StdoutLine: {'line': b'writing top-level names to turtlesim.egg-info/top_level.txt\n'}
+[1.330474] (turtlesim) StdoutLine: {'line': b"reading manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[1.334109] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[1.406481] (-) TimerEvent: {}
+[1.410907] (turtlesim) StdoutLine: {'line': b'[ 72%] Built target ament_cmake_python_build_turtlesim_egg\n'}
+[1.448026] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_teleop_key\x1b[0m\n'}
+[1.503756] (turtlesim) StdoutLine: {'line': b'[ 74%] Built target turtle_teleop_key\n'}
+[1.507018] (-) TimerEvent: {}
+[1.532558] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target draw_square\x1b[0m\n'}
+[1.588859] (turtlesim) StdoutLine: {'line': b'[ 76%] Built target draw_square\n'}
+[1.607554] (-) TimerEvent: {}
+[1.621356] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mimic\x1b[0m\n'}
+[1.670484] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target mimic\n'}
+[1.708570] (-) TimerEvent: {}
+[1.722815] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target turtlesim\n'}
+[1.789119] (turtlesim) StdoutLine: {'line': b'[ 79%] Built target turtlesim__py\n'}
+[1.809278] (-) TimerEvent: {}
+[1.830920] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_generator_py\x1b[0m\n'}
+[1.885427] (turtlesim) StdoutLine: {'line': b'[ 88%] Built target turtlesim__rosidl_generator_py\n'}
+[1.909547] (-) TimerEvent: {}
+[1.914560] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[1.956713] (turtlesim) StdoutLine: {'line': b'[ 90%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.988914] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[2.010225] (-) TimerEvent: {}
+[2.023201] (turtlesim) StdoutLine: {'line': b'[ 92%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[2.064270] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[2.099309] (turtlesim) StdoutLine: {'line': b'[ 94%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[2.111049] (-) TimerEvent: {}
+[2.212473] (-) TimerEvent: {}
+[2.313835] (-) TimerEvent: {}
+[2.415290] (-) TimerEvent: {}
+[2.516558] (-) TimerEvent: {}
+[2.617660] (-) TimerEvent: {}
+[2.718823] (-) TimerEvent: {}
+[2.819785] (-) TimerEvent: {}
+[2.920853] (-) TimerEvent: {}
+[3.022220] (-) TimerEvent: {}
+[3.123265] (-) TimerEvent: {}
+[3.224695] (-) TimerEvent: {}
+[3.325811] (-) TimerEvent: {}
+[3.426721] (-) TimerEvent: {}
+[3.527676] (-) TimerEvent: {}
+[3.629011] (-) TimerEvent: {}
+[3.730349] (-) TimerEvent: {}
+[3.831577] (-) TimerEvent: {}
+[3.932801] (-) TimerEvent: {}
+[4.033799] (-) TimerEvent: {}
+[4.134869] (-) TimerEvent: {}
+[4.236100] (-) TimerEvent: {}
+[4.337221] (-) TimerEvent: {}
+[4.438536] (-) TimerEvent: {}
+[4.539373] (-) TimerEvent: {}
+[4.640603] (-) TimerEvent: {}
+[4.741379] (-) TimerEvent: {}
+[4.842707] (-) TimerEvent: {}
+[4.944147] (-) TimerEvent: {}
+[5.045701] (-) TimerEvent: {}
+[5.146998] (-) TimerEvent: {}
+[5.248414] (-) TimerEvent: {}
+[5.349739] (-) TimerEvent: {}
+[5.451041] (-) TimerEvent: {}
+[5.552198] (-) TimerEvent: {}
+[5.653021] (-) TimerEvent: {}
+[5.754272] (-) TimerEvent: {}
+[5.855400] (-) TimerEvent: {}
+[5.956913] (-) TimerEvent: {}
+[6.057757] (-) TimerEvent: {}
+[6.159041] (-) TimerEvent: {}
+[6.260238] (-) TimerEvent: {}
+[6.361180] (-) TimerEvent: {}
+[6.461962] (-) TimerEvent: {}
+[6.563009] (-) TimerEvent: {}
+[6.663959] (-) TimerEvent: {}
+[6.764663] (-) TimerEvent: {}
+[6.865574] (-) TimerEvent: {}
+[6.967123] (-) TimerEvent: {}
+[7.068245] (-) TimerEvent: {}
+[7.169322] (-) TimerEvent: {}
+[7.270373] (-) TimerEvent: {}
+[7.371475] (-) TimerEvent: {}
+[7.472605] (-) TimerEvent: {}
+[7.573282] (-) TimerEvent: {}
+[7.674409] (-) TimerEvent: {}
+[7.775636] (-) TimerEvent: {}
+[7.876352] (-) TimerEvent: {}
+[7.977341] (-) TimerEvent: {}
+[8.078162] (-) TimerEvent: {}
+[8.179225] (-) TimerEvent: {}
+[8.280103] (-) TimerEvent: {}
+[8.380735] (-) TimerEvent: {}
+[8.482026] (-) TimerEvent: {}
+[8.582845] (-) TimerEvent: {}
+[8.683854] (-) TimerEvent: {}
+[8.784634] (-) TimerEvent: {}
+[8.885269] (-) TimerEvent: {}
+[8.986379] (-) TimerEvent: {}
+[9.087538] (-) TimerEvent: {}
+[9.188618] (-) TimerEvent: {}
+[9.289719] (-) TimerEvent: {}
+[9.390672] (-) TimerEvent: {}
+[9.491468] (-) TimerEvent: {}
+[9.592449] (-) TimerEvent: {}
+[9.693012] (-) TimerEvent: {}
+[9.793785] (-) TimerEvent: {}
+[9.894887] (-) TimerEvent: {}
+[9.996070] (-) TimerEvent: {}
+[10.097103] (-) TimerEvent: {}
+[10.197780] (-) TimerEvent: {}
+[10.298767] (-) TimerEvent: {}
+[10.399384] (-) TimerEvent: {}
+[10.500284] (-) TimerEvent: {}
+[10.600754] (-) TimerEvent: {}
+[10.701910] (-) TimerEvent: {}
+[10.803160] (-) TimerEvent: {}
+[10.904013] (-) TimerEvent: {}
+[11.004678] (-) TimerEvent: {}
+[11.105585] (-) TimerEvent: {}
+[11.206751] (-) TimerEvent: {}
+[11.307912] (-) TimerEvent: {}
+[11.408504] (-) TimerEvent: {}
+[11.509307] (-) TimerEvent: {}
+[11.610331] (-) TimerEvent: {}
+[11.711113] (-) TimerEvent: {}
+[11.812096] (-) TimerEvent: {}
+[11.912904] (-) TimerEvent: {}
+[12.013596] (-) TimerEvent: {}
+[12.114314] (-) TimerEvent: {}
+[12.215266] (-) TimerEvent: {}
+[12.316273] (-) TimerEvent: {}
+[12.416816] (-) TimerEvent: {}
+[12.517471] (-) TimerEvent: {}
+[12.618053] (-) TimerEvent: {}
+[12.718909] (-) TimerEvent: {}
+[12.819880] (-) TimerEvent: {}
+[12.920451] (-) TimerEvent: {}
+[13.021279] (-) TimerEvent: {}
+[13.122392] (-) TimerEvent: {}
+[13.223264] (-) TimerEvent: {}
+[13.324194] (-) TimerEvent: {}
+[13.424833] (-) TimerEvent: {}
+[13.525512] (-) TimerEvent: {}
+[13.626434] (-) TimerEvent: {}
+[13.727493] (-) TimerEvent: {}
+[13.828330] (-) TimerEvent: {}
+[13.928990] (-) TimerEvent: {}
+[14.030173] (-) TimerEvent: {}
+[14.130938] (-) TimerEvent: {}
+[14.231714] (-) TimerEvent: {}
+[14.332676] (-) TimerEvent: {}
+[14.433676] (-) TimerEvent: {}
+[14.534539] (-) TimerEvent: {}
+[14.635431] (-) TimerEvent: {}
+[14.736463] (-) TimerEvent: {}
+[14.837464] (-) TimerEvent: {}
+[14.938304] (-) TimerEvent: {}
+[15.039425] (-) TimerEvent: {}
+[15.140273] (-) TimerEvent: {}
+[15.241108] (-) TimerEvent: {}
+[15.342008] (-) TimerEvent: {}
+[15.442861] (-) TimerEvent: {}
+[15.543415] (-) TimerEvent: {}
+[15.643991] (-) TimerEvent: {}
+[15.744574] (-) TimerEvent: {}
+[15.845356] (-) TimerEvent: {}
+[15.946386] (-) TimerEvent: {}
+[16.047363] (-) TimerEvent: {}
+[16.148423] (-) TimerEvent: {}
+[16.249255] (-) TimerEvent: {}
+[16.350121] (-) TimerEvent: {}
+[16.451245] (-) TimerEvent: {}
+[16.560329] (-) TimerEvent: {}
+[16.671121] (-) TimerEvent: {}
+[16.774695] (-) TimerEvent: {}
+[16.877785] (-) TimerEvent: {}
+[16.979703] (-) TimerEvent: {}
+[17.082030] (-) TimerEvent: {}
+[17.183643] (-) TimerEvent: {}
+[17.285174] (-) TimerEvent: {}
+[17.386546] (-) TimerEvent: {}
+[17.487704] (-) TimerEvent: {}
+[17.588494] (-) TimerEvent: {}
+[17.689895] (-) TimerEvent: {}
+[17.790655] (-) TimerEvent: {}
+[17.891775] (-) TimerEvent: {}
+[17.992909] (-) TimerEvent: {}
+[18.094049] (-) TimerEvent: {}
+[18.195149] (-) TimerEvent: {}
+[18.295927] (-) TimerEvent: {}
+[18.396967] (-) TimerEvent: {}
+[18.498340] (-) TimerEvent: {}
+[18.599282] (-) TimerEvent: {}
+[18.700361] (-) TimerEvent: {}
+[18.801309] (-) TimerEvent: {}
+[18.902766] (-) TimerEvent: {}
+[19.003754] (-) TimerEvent: {}
+[19.105219] (-) TimerEvent: {}
+[19.206035] (-) TimerEvent: {}
+[19.307018] (-) TimerEvent: {}
+[19.363611] (turtlesim) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable turtlesim_node\x1b[0m\n'}
+[19.408088] (-) TimerEvent: {}
+[19.508944] (-) TimerEvent: {}
+[19.610127] (-) TimerEvent: {}
+[19.710978] (-) TimerEvent: {}
+[19.812468] (-) TimerEvent: {}
+[19.913448] (-) TimerEvent: {}
+[20.014291] (-) TimerEvent: {}
+[20.115095] (-) TimerEvent: {}
+[20.215925] (-) TimerEvent: {}
+[20.316572] (-) TimerEvent: {}
+[20.417502] (-) TimerEvent: {}
+[20.518391] (-) TimerEvent: {}
+[20.619533] (-) TimerEvent: {}
+[20.720593] (-) TimerEvent: {}
+[20.822013] (-) TimerEvent: {}
+[20.923042] (-) TimerEvent: {}
+[21.024134] (-) TimerEvent: {}
+[21.124749] (-) TimerEvent: {}
+[21.226072] (-) TimerEvent: {}
+[21.326605] (-) TimerEvent: {}
+[21.427561] (-) TimerEvent: {}
+[21.528892] (-) TimerEvent: {}
+[21.630152] (-) TimerEvent: {}
+[21.731766] (-) TimerEvent: {}
+[21.832611] (-) TimerEvent: {}
+[21.933194] (-) TimerEvent: {}
+[22.034110] (-) TimerEvent: {}
+[22.135333] (-) TimerEvent: {}
+[22.235904] (-) TimerEvent: {}
+[22.336584] (-) TimerEvent: {}
+[22.437072] (-) TimerEvent: {}
+[22.538134] (-) TimerEvent: {}
+[22.638942] (-) TimerEvent: {}
+[22.739515] (-) TimerEvent: {}
+[22.840561] (-) TimerEvent: {}
+[22.941602] (-) TimerEvent: {}
+[22.952042] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim_node\n'}
+[22.982512] (turtlesim) CommandEnded: {'returncode': 0}
+[23.042100] (-) TimerEvent: {}
+[23.143177] (-) TimerEvent: {}
+[23.243967] (-) TimerEvent: {}
+[23.345407] (-) TimerEvent: {}
+[23.446360] (-) TimerEvent: {}
+[23.537096] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[23.546766] (-) TimerEvent: {}
+[23.551140] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/build/turtlesim'], 'cwd': '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'jamshid'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jamshid'), ('OLDPWD', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1687'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b7541f8258f5f0f5c4579cb76528e6c9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jamshid'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jamshid'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jamshid-virtual-machine:@/tmp/.ICE-unix/1687,unix/jamshid-virtual-machine:/tmp/.ICE-unix/1687'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/34beaef7_f6e1_4a95_a1b0_88eefa89af1e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CRJGC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b7541f8258f5f0f5c4579cb76528e6c9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim:/opt/ros/humble')]), 'shell': False}
+[23.575436] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.575746] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[23.575819] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[23.575877] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[23.575935] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[23.575989] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[23.576044] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[23.576098] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[23.576174] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[23.576417] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h\n'}
+[23.577228] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[23.577296] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h\n'}
+[23.577379] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h\n'}
+[23.577468] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[23.577526] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[23.577583] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[23.577638] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h\n'}
+[23.577692] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[23.577746] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h\n'}
+[23.577799] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[23.577853] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h\n'}
+[23.577907] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[23.577961] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h\n'}
+[23.578015] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[23.578070] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c\n'}
+[23.578123] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h\n'}
+[23.578191] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h\n'}
+[23.578765] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[23.578874] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[23.578933] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c\n'}
+[23.578988] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c\n'}
+[23.579043] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h\n'}
+[23.579097] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h\n'}
+[23.579151] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[23.579206] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h\n'}
+[23.579273] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h\n'}
+[23.579328] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h\n'}
+[23.579383] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[23.579436] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[23.579526] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h\n'}
+[23.579604] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h\n'}
+[23.579660] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c\n'}
+[23.579715] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h\n'}
+[23.579769] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c\n'}
+[23.579825] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h\n'}
+[23.579878] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h\n'}
+[23.579931] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h\n'}
+[23.579984] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/color.h\n'}
+[23.580047] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[23.580102] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h\n'}
+[23.580155] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[23.580215] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[23.580269] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[23.580322] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[23.580375] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[23.580429] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[23.580483] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[23.580722] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[23.580798] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[23.580860] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[23.580945] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[23.581033] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[23.581157] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[23.581238] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[23.581294] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[23.581348] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[23.581401] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[23.581455] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[23.581518] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[23.581572] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[23.581651] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[23.581739] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[23.581797] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[23.581858] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[23.581913] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[23.581967] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[23.582030] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp\n'}
+[23.582085] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[23.582139] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[23.582195] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[23.582252] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[23.582306] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[23.582359] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[23.582413] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[23.582467] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[23.582520] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[23.582574] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[23.582629] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[23.582739] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[23.582813] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[23.582870] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp\n'}
+[23.582925] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp\n'}
+[23.582978] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[23.583033] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp\n'}
+[23.583086] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp\n'}
+[23.583142] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp\n'}
+[23.583196] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp\n'}
+[23.583515] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp\n'}
+[23.583583] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp\n'}
+[23.583640] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[23.583695] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[23.583768] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp\n'}
+[23.583867] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp\n'}
+[23.583931] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp\n'}
+[23.583986] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp\n'}
+[23.584044] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp\n'}
+[23.584098] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp\n'}
+[23.584152] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp\n'}
+[23.584219] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp\n'}
+[23.584274] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[23.584452] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[23.585273] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[23.585357] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.585544] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps\n'}
+[23.585607] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[23.585743] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[23.586008] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.587147] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.587377] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.587442] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps\n'}
+[23.587595] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.587676] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.588143] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[23.588516] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[23.588773] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.588904] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[23.590389] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps\n'}
+[23.590530] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[23.590605] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[23.590662] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[23.590717] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[23.590772] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[23.590826] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[23.590881] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[23.590936] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[23.590990] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[23.591044] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[23.591102] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[23.591157] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[23.591212] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[23.591266] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c\n'}
+[23.591334] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[23.591390] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c\n'}
+[23.591466] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[23.591560] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[23.591623] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[23.591679] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[23.591744] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[23.591799] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c\n'}
+[23.591860] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c\n'}
+[23.591917] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[23.591972] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[23.592027] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[23.592085] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[23.592140] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[23.592195] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[23.592254] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[23.592309] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[23.592363] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.592419] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[23.592623] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[23.592711] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[23.592769] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[23.592826] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.592883] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[23.592937] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[23.593029] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.593086] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.593142] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.593199] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[23.593258] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[23.593313] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.593369] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[23.593429] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[23.593485] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[23.593540] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp\n'}
+[23.593594] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.593650] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[23.593705] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[23.593760] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[23.593816] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[23.593871] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[23.593926] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info\n'}
+[23.593994] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/PKG-INFO\n'}
+[23.594089] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/top_level.txt\n'}
+[23.594165] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/dependency_links.txt\n'}
+[23.594222] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/SOURCES.txt\n'}
+[23.594277] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim\n'}
+[23.594333] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.594389] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action\n'}
+[23.594443] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[23.594511] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py\n'}
+[23.594568] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py\n'}
+[23.594622] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv\n'}
+[23.594677] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[23.594731] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[23.594792] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c\n'}
+[23.594847] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py\n'}
+[23.594901] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py\n'}
+[23.594956] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py\n'}
+[23.595010] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py\n'}
+[23.595108] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py\n'}
+[23.595180] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[23.595240] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c\n'}
+[23.595304] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c\n'}
+[23.595359] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c\n'}
+[23.595414] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.595469] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.595525] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py\n'}
+[23.595578] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[23.595632] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[23.595686] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg\n'}
+[23.595740] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c\n'}
+[23.595795] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c\n'}
+[23.595849] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py\n'}
+[23.595915] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py\n'}
+[23.595970] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py\n'}
+[23.596029] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so\n'}
+[23.636138] (turtlesim) StdoutLine: {'line': b"Listing '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...\n"}
+[23.636342] (turtlesim) StdoutLine: {'line': b"Listing '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...\n"}
+[23.636407] (turtlesim) StdoutLine: {'line': b"Listing '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...\n"}
+[23.636465] (turtlesim) StdoutLine: {'line': b"Listing '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...\n"}
+[23.641868] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.642515] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.642821] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[23.643556] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so\n'}
+[23.643907] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[23.644926] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[23.645612] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[23.645807] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[23.645948] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[23.646031] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[23.646090] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[23.646148] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[23.646203] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[23.646259] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[23.646316] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[23.646371] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[23.646425] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[23.646480] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[23.646537] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[23.646654] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[23.646752] (-) TimerEvent: {}
+[23.647109] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[23.647273] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[23.647348] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[23.647413] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[23.647484] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[23.647547] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[23.647612] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[23.647695] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[23.647795] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[23.647901] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[23.648017] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[23.665957] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/lib/turtlesim/turtlesim_node" to ""\n'}
+[23.666409] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[23.667136] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/lib/turtlesim/draw_square\n'}
+[23.667686] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/lib/turtlesim/mimic\n'}
+[23.668006] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/images\n'}
+[23.668185] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[23.668535] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[23.668757] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[23.668904] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/images/galactic.png\n'}
+[23.669045] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/images/rolling.png\n'}
+[23.669185] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/images/humble.png\n'}
+[23.669325] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[23.669464] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[23.669676] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[23.669901] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/launch\n'}
+[23.670094] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[23.670380] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[23.670619] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[23.670879] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[23.671080] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[23.671302] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[23.671512] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[23.671690] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[23.671946] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[23.672142] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[23.672675] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[23.673040] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/package.dsv\n'}
+[23.673802] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[23.674353] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake\n'}
+[23.674724] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[23.675132] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[23.675440] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[23.675773] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake\n'}
+[23.676130] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[23.676401] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[23.676732] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[23.677246] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[23.677637] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[23.677953] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[23.678286] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[23.678554] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[23.678913] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[23.679287] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[23.679763] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake\n'}
+[23.680094] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake\n'}
+[23.688970] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[23.689556] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[23.689854] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[23.690120] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[23.690509] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[23.690806] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[23.691062] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[23.691333] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[23.691531] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[23.691788] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/share/turtlesim/package.xml\n'}
+[23.698695] (turtlesim) CommandEnded: {'returncode': 0}
+[23.752675] (-) TimerEvent: {}
+[23.856844] (-) TimerEvent: {}
+[23.957710] (-) TimerEvent: {}
+[24.058516] (-) TimerEvent: {}
+[24.159394] (-) TimerEvent: {}
+[24.260152] (-) TimerEvent: {}
+[24.361290] (-) TimerEvent: {}
+[24.462653] (-) TimerEvent: {}
+[24.565730] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[24.567862] (-) TimerEvent: {}
+[24.568224] (-) EventReactorShutdown: {}

@@ -1,0 +1,198 @@
+[0.000000] (-) TimerEvent: {}
+[0.000278] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000471] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000509] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000537] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.090217] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.092797] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.092931] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/build/cpp_pubsub', '--', '-j2', '-l2'], 'cwd': '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'jamshid'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jamshid'), ('OLDPWD', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1687'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b7541f8258f5f0f5c4579cb76528e6c9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jamshid'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jamshid'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jamshid-virtual-machine:@/tmp/.ICE-unix/1687,unix/jamshid-virtual-machine:/tmp/.ICE-unix/1687'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/34beaef7_f6e1_4a95_a1b0_88eefa89af1e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CRJGC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/my_package:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b7541f8258f5f0f5c4579cb76528e6c9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/my_package:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim:/opt/ros/humble')]), 'shell': False}
+[0.098381] (-) TimerEvent: {}
+[0.129251] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.198597] (-) TimerEvent: {}
+[0.299688] (-) TimerEvent: {}
+[0.305196] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.344975] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.348236] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.354614] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.369259] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.386169] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.399958] (-) TimerEvent: {}
+[0.447121] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.449112] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500216] (-) TimerEvent: {}
+[0.569629] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.601010] (-) TimerEvent: {}
+[0.702174] (-) TimerEvent: {}
+[0.736893] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.802523] (-) TimerEvent: {}
+[0.806446] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.807541] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.807740] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.809044] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.811151] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.811421] (cpp_pubsub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.812286] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.814302] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.836619] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[0.841817] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/build/cpp_pubsub\n'}
+[0.895014] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.898635] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[0.903133] (-) TimerEvent: {}
+[1.004260] (-) TimerEvent: {}
+[1.105292] (-) TimerEvent: {}
+[1.206112] (-) TimerEvent: {}
+[1.306734] (-) TimerEvent: {}
+[1.407461] (-) TimerEvent: {}
+[1.508375] (-) TimerEvent: {}
+[1.609183] (-) TimerEvent: {}
+[1.710245] (-) TimerEvent: {}
+[1.811058] (-) TimerEvent: {}
+[1.911725] (-) TimerEvent: {}
+[2.012741] (-) TimerEvent: {}
+[2.113498] (-) TimerEvent: {}
+[2.214437] (-) TimerEvent: {}
+[2.315438] (-) TimerEvent: {}
+[2.416354] (-) TimerEvent: {}
+[2.517118] (-) TimerEvent: {}
+[2.617949] (-) TimerEvent: {}
+[2.718719] (-) TimerEvent: {}
+[2.819357] (-) TimerEvent: {}
+[2.920453] (-) TimerEvent: {}
+[3.021223] (-) TimerEvent: {}
+[3.122335] (-) TimerEvent: {}
+[3.223215] (-) TimerEvent: {}
+[3.324177] (-) TimerEvent: {}
+[3.424804] (-) TimerEvent: {}
+[3.525509] (-) TimerEvent: {}
+[3.626215] (-) TimerEvent: {}
+[3.726888] (-) TimerEvent: {}
+[3.828138] (-) TimerEvent: {}
+[3.928997] (-) TimerEvent: {}
+[4.029865] (-) TimerEvent: {}
+[4.130913] (-) TimerEvent: {}
+[4.232210] (-) TimerEvent: {}
+[4.333423] (-) TimerEvent: {}
+[4.434702] (-) TimerEvent: {}
+[4.535785] (-) TimerEvent: {}
+[4.636825] (-) TimerEvent: {}
+[4.737672] (-) TimerEvent: {}
+[4.838853] (-) TimerEvent: {}
+[4.939699] (-) TimerEvent: {}
+[5.041128] (-) TimerEvent: {}
+[5.142145] (-) TimerEvent: {}
+[5.243502] (-) TimerEvent: {}
+[5.344346] (-) TimerEvent: {}
+[5.445421] (-) TimerEvent: {}
+[5.546400] (-) TimerEvent: {}
+[5.647601] (-) TimerEvent: {}
+[5.748467] (-) TimerEvent: {}
+[5.849468] (-) TimerEvent: {}
+[5.950261] (-) TimerEvent: {}
+[6.051324] (-) TimerEvent: {}
+[6.152426] (-) TimerEvent: {}
+[6.253319] (-) TimerEvent: {}
+[6.354302] (-) TimerEvent: {}
+[6.454912] (-) TimerEvent: {}
+[6.555911] (-) TimerEvent: {}
+[6.656976] (-) TimerEvent: {}
+[6.758208] (-) TimerEvent: {}
+[6.859477] (-) TimerEvent: {}
+[6.960410] (-) TimerEvent: {}
+[7.061397] (-) TimerEvent: {}
+[7.162486] (-) TimerEvent: {}
+[7.263150] (-) TimerEvent: {}
+[7.363761] (-) TimerEvent: {}
+[7.464691] (-) TimerEvent: {}
+[7.565489] (-) TimerEvent: {}
+[7.666621] (-) TimerEvent: {}
+[7.767791] (-) TimerEvent: {}
+[7.868805] (-) TimerEvent: {}
+[7.970392] (-) TimerEvent: {}
+[8.071354] (-) TimerEvent: {}
+[8.172199] (-) TimerEvent: {}
+[8.272901] (-) TimerEvent: {}
+[8.328261] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[8.373541] (-) TimerEvent: {}
+[8.474824] (-) TimerEvent: {}
+[8.575727] (-) TimerEvent: {}
+[8.678411] (-) TimerEvent: {}
+[8.709880] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[8.778548] (-) TimerEvent: {}
+[8.879348] (-) TimerEvent: {}
+[8.980010] (-) TimerEvent: {}
+[9.080646] (-) TimerEvent: {}
+[9.181326] (-) TimerEvent: {}
+[9.282274] (-) TimerEvent: {}
+[9.383499] (-) TimerEvent: {}
+[9.484572] (-) TimerEvent: {}
+[9.585447] (-) TimerEvent: {}
+[9.686341] (-) TimerEvent: {}
+[9.787443] (-) TimerEvent: {}
+[9.888541] (-) TimerEvent: {}
+[9.989532] (-) TimerEvent: {}
+[10.090658] (-) TimerEvent: {}
+[10.191525] (-) TimerEvent: {}
+[10.292339] (-) TimerEvent: {}
+[10.393224] (-) TimerEvent: {}
+[10.494467] (-) TimerEvent: {}
+[10.595562] (-) TimerEvent: {}
+[10.696373] (-) TimerEvent: {}
+[10.797018] (-) TimerEvent: {}
+[10.898000] (-) TimerEvent: {}
+[10.998637] (-) TimerEvent: {}
+[11.099384] (-) TimerEvent: {}
+[11.200290] (-) TimerEvent: {}
+[11.300991] (-) TimerEvent: {}
+[11.401799] (-) TimerEvent: {}
+[11.502783] (-) TimerEvent: {}
+[11.603392] (-) TimerEvent: {}
+[11.704180] (-) TimerEvent: {}
+[11.804900] (-) TimerEvent: {}
+[11.905764] (-) TimerEvent: {}
+[12.006751] (-) TimerEvent: {}
+[12.107755] (-) TimerEvent: {}
+[12.208554] (-) TimerEvent: {}
+[12.309289] (-) TimerEvent: {}
+[12.409949] (-) TimerEvent: {}
+[12.510560] (-) TimerEvent: {}
+[12.611274] (-) TimerEvent: {}
+[12.712358] (-) TimerEvent: {}
+[12.813489] (-) TimerEvent: {}
+[12.914222] (-) TimerEvent: {}
+[13.015407] (-) TimerEvent: {}
+[13.096182] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[13.115967] (-) TimerEvent: {}
+[13.217149] (-) TimerEvent: {}
+[13.318220] (-) TimerEvent: {}
+[13.419586] (-) TimerEvent: {}
+[13.520665] (-) TimerEvent: {}
+[13.580570] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[13.597649] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[13.620958] (-) TimerEvent: {}
+[13.647256] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[13.664449] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/build/cpp_pubsub'], 'cwd': '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'jamshid'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jamshid'), ('OLDPWD', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1687'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b7541f8258f5f0f5c4579cb76528e6c9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jamshid'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jamshid'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jamshid-virtual-machine:@/tmp/.ICE-unix/1687,unix/jamshid-virtual-machine:/tmp/.ICE-unix/1687'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/34beaef7_f6e1_4a95_a1b0_88eefa89af1e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CRJGC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/my_package:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b7541f8258f5f0f5c4579cb76528e6c9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/my_package:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/turtlesim:/opt/ros/humble')]), 'shell': False}
+[13.676511] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.677543] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[13.680212] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""\n'}
+[13.681034] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[13.685950] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""\n'}
+[13.686171] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[13.686372] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[13.686491] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[13.686571] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[13.686670] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[13.686745] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[13.687114] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[13.687349] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[13.687552] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[13.687754] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[13.688715] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[13.689318] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[13.689553] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[13.689766] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[13.689977] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[13.693864] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[13.721908] (-) TimerEvent: {}
+[13.823351] (-) TimerEvent: {}
+[13.913826] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[13.915847] (-) EventReactorShutdown: {}

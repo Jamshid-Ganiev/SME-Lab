@@ -1,0 +1,51 @@
+[0.159s] Invoking command in '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/my_package
+[0.303s] -- The C compiler identification is GNU 11.4.0
+[0.484s] -- The CXX compiler identification is GNU 11.4.0
+[0.507s] -- Detecting C compiler ABI info
+[0.759s] -- Detecting C compiler ABI info - done
+[0.768s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.771s] -- Detecting C compile features
+[0.773s] -- Detecting C compile features - done
+[0.780s] -- Detecting CXX compiler ABI info
+[0.916s] -- Detecting CXX compiler ABI info - done
+[0.929s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.931s] -- Detecting CXX compile features
+[0.935s] -- Detecting CXX compile features - done
+[0.950s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.265s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.472s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.621s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.621s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/src/my_package/include>
+[1.622s] -- Configured cppcheck exclude dirs and/or files: 
+[1.626s] -- Added test 'lint_cmake' to check CMake code style
+[1.629s] -- Added test 'uncrustify' to check C / C++ code style
+[1.630s] -- Configured uncrustify additional arguments: 
+[1.632s] -- Added test 'xmllint' to check XML markup files
+[1.645s] -- Configuring done
+[1.679s] -- Generating done
+[1.686s] -- Build files have been written to: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/build/my_package
+[1.694s] Invoked command in '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/my_package
+[1.699s] Invoking command in '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/build/my_package -- -j2 -l2
+[1.805s] [ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[1.876s] [100%] [32m[1mLinking CXX executable my_node[0m
+[1.972s] [100%] Built target my_node
+[2.002s] Invoked command in '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/build/my_package -- -j2 -l2
+[2.089s] Invoking command in '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/build/my_package
+[2.107s] -- Install configuration: ""
+[2.108s] -- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/my_package/lib/my_package/my_node
+[2.111s] -- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[2.113s] -- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[2.114s] -- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[2.116s] -- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[2.118s] -- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/my_package/share/my_package/environment/path.sh
+[2.120s] -- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/my_package/share/my_package/environment/path.dsv
+[2.122s] -- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/my_package/share/my_package/local_setup.bash
+[2.124s] -- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/my_package/share/my_package/local_setup.sh
+[2.126s] -- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/my_package/share/my_package/local_setup.zsh
+[2.128s] -- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/my_package/share/my_package/local_setup.dsv
+[2.130s] -- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/my_package/share/my_package/package.dsv
+[2.132s] -- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[2.134s] -- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[2.135s] -- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[2.137s] -- Installing: /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/install/my_package/share/my_package/package.xml
+[2.155s] Invoked command in '/home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jamshid/Desktop/SME-Lab/week-6-assignment-Advanced/ros2_ws/build/my_package
