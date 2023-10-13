@@ -105,6 +105,19 @@ The script performs the following actions:
 
 ![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/5d45d0b6-41f8-4ff2-a628-ac182978f8e5)
 
+## Recording a bag from a node:
+
+### Bag Recorder
+
+![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/74a8fac4-24ec-4af6-9a13-8b141cce63da)
+
+## Reading from a bag file:
+
+![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/b1e04d42-4fb2-43c6-8973-0acb9bde1a7a)
+
+
+
+
 
 
 
