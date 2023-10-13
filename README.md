@@ -65,7 +65,7 @@ The script performs the following actions:
 <hr/>
 
 # Week 6 Assignment | ROS2 Advanced Section
-### Enabling topic statistics (C++):
+## Enabling topic statistics (C++):
 ![snapshot](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/88a2359f-f1b2-4631-b298-f0eb59748aaa)
 
 ### CMakeLists.txt
@@ -82,6 +82,24 @@ The script performs the following actions:
 ---------------------------------------------
 
 ![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/33fbc8bc-1563-4733-93e3-eff57f36fed9)
+
+## Using Fast DDS Discovery Server as discovery protocol:
+
+### Server --> Talker --> Listener
+
+![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/3127db76-be74-4eb9-b64e-de20d893b9fb)
+
+## Implementing a custom memory allocator:
+
+![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/7a1030ed-5be0-497c-b0f8-b1244f1bda3e)
+
+## Unlocking the potential of Fast DDS middleware:
+
+### New workspace created:
+
+![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/465f65ca-84de-4cce-bc8a-f6fd20e5a197)
+
+
 
 
 
