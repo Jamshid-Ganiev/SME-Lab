@@ -34,9 +34,11 @@ The script performs the following actions:
   - Initializes a ROS 2 node.
   - Logs the message "Hello, ROS 2!" to the console using the `rclpy` library.
   - The node continues running until you stop it with a keyboard interrupt (Ctrl+C).
- 
 
-## week 3 | Action & Client Python | Multiple nodes in a single process
+![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/53dc0b59-c1fb-4a89-b6e8-a66659354d77)
+
+
+## week 3 Intermediate | Action & Client Python | Multiple nodes in a single process
 ### fibonacci sequence snapshot:
 ![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/d5d9cf43-d2e8-4187-b994-d8d9026cdb34)
 ![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/264c61c2-c3be-4c72-aa2b-34e2868dab0c)
