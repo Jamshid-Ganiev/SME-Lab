@@ -76,5 +76,12 @@ The script performs the following actions:
 
 ![Publisher and Subscriber](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/89edbb77-d9d2-4db9-96f5-d6c072213298)
 
+### Published Statistics Data:
+![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/9fb7c9a2-452b-418c-9bab-3def2c96ec1a)
+
+---------------------------------------------
+
+![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/33fbc8bc-1563-4733-93e3-eff57f36fed9)
+
 
 
