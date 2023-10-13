@@ -65,6 +65,16 @@ The script performs the following actions:
 <hr/>
 
 # Week 6 Assignment | ROS2 Advanced Section
-## Enabling topic statistics (C++):
+### Enabling topic statistics (C++):
 ![snapshot](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/88a2359f-f1b2-4631-b298-f0eb59748aaa)
+
+### CMakeLists.txt
+
+![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/04dcfa45-cc5f-447f-be58-98fcb75e75c7)
+
+### RUN ---> Outcome:
+
+![Publisher and Subscriber](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/89edbb77-d9d2-4db9-96f5-d6c072213298)
+
+
 
