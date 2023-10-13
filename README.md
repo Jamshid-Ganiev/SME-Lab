@@ -23,6 +23,19 @@ The script performs the following actions:
 
   ![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/0ab2bfd5-7e16-45d2-94f8-882ac68e236e)
 
+  ### CLI tools:
+
+  ![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/c84aebf5-f8be-432d-8cd5-5b522bea2b14)
+
+  ### Talker and Listener 
+  ![C++ talker and listener](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/050ed2b5-a722-4bb6-92db-ca7ce5e7305d)
+
+  ![Python talker and listener](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/0faf70e4-7816-4026-a4a7-0052e57ee667)
+
+
+
+
+
 # My ROS 2 Project
 
 [Beginner: Client libraries](https://github.com/Jamshid-Ganiev/SME-Lab/tree/main/week-4-homework/ros2_ws)
@@ -49,4 +62,9 @@ The script performs the following actions:
 ### Talker and Listener | C++
 ![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/788bfe31-d387-4da1-be7b-4d2c1a64430f)
 
+<hr/>
+
+# Week 6 Assignment | ROS2 Advanced Section
+## Enabling topic statistics (C++):
+![snapshot](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/88a2359f-f1b2-4631-b298-f0eb59748aaa)
 
