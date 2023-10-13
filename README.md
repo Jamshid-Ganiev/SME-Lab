@@ -97,7 +97,16 @@ The script performs the following actions:
 
 ### New workspace created:
 
-![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/465f65ca-84de-4cce-bc8a-f6fd20e5a197)
+### Writer & Reader:
+
+![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/e46c8c85-4545-4270-ace4-83bed8d2b2c8)
+
+### Service & Client:
+
+![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/5d45d0b6-41f8-4ff2-a628-ac182978f8e5)
+
+
+
 
 
 
