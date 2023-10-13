@@ -17,6 +17,7 @@ The script performs the following actions:
 - Stops the turtle gracefully when the spiral drawing is complete.
   ![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/341402c6-ed27-4afc-8b6b-50d9f37a5c65)
   <hr/>
+  
   ![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/712fced8-59a6-4faa-ba66-bb675cb8e0a8)
 
 
