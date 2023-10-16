@@ -116,6 +116,35 @@ The script performs the following actions:
 ![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/b1e04d42-4fb2-43c6-8973-0acb9bde1a7a)
 
 
+## week 7 | Action server & Action client | Smart home
+# Smart Home ROS Client and Server
+
+The Smart Home ROS Client and Server is a ROS 2 (Robot Operating System 2) project that allows users to control and monitor smart home appliances through a user-friendly client application. Simultaneously, it provides a server that handles these appliance control actions seamlessly.
+
+## Introduction
+
+In the era of smart homes, the ability to remotely control and monitor household appliances is a valuable convenience. The Smart Home ROS Client and Server offers an open-source solution for managing your appliances in a more interactive and efficient manner. Whether it's turning on the lights, checking the status of your fridge, or adjusting the temperature with your air conditioner, this project simplifies the control process.
+
+## How It Works
+
+The project consists of two primary components:
+
+1. **Appliance Client**: The client application provides an intuitive user interface for controlling various smart home appliances. It allows you to interact with the appliances by choosing from a list of options, specifying whether to turn them on or off, and even receiving feedback on the results.
+
+2. **Appliance Server**: The server node is responsible for handling appliance control actions. It communicates with the client, interprets user commands, and controls the actual appliances based on the received requests. Additionally, it provides feedback on the status of the control operations.
+
+The Smart Home ROS Client and Server leverages the ROS 2 Action API to manage appliances efficiently. You can control the state of appliances such as the TV, Fridge, Boiler, Air Conditioner, and Lights with ease. Whether you're at home or away, this project allows you to stay connected with your smart home.
+
+## Results
+
+### Efficient Appliance Control
+The Appliance Server effectively processes user commands and controls smart home appliances. It promptly executes actions like turning devices on or off and provides feedback on the success or failure of these operations.
+
+With the Smart Home ROS Client and Server, you can enjoy enhanced control and monitoring of your smart home appliances, contributing to a more convenient and efficient living environment.
+
+## Prerequisites
+Before getting started, ensure that you have the necessary prerequisites installed on your system. Refer to the [Prerequisites](#prerequisites) section in this README for detailed requirements and setup instructions.
+
 
 
 
