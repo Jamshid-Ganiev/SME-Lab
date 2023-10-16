@@ -148,6 +148,56 @@ With the Smart Home ROS Client and Server, you can enjoy enhanced control and mo
 Before getting started, ensure that you have the necessary prerequisites installed on your system. Refer to the [Prerequisites](#prerequisites) section in this README for detailed requirements and setup instructions.
 
 
+## Interaction Diagram:
+# Smart Home ROS 2 Application
+
+The Smart Home ROS 2 Application is designed to control and manage various appliances in a smart home environment. It consists of two primary components: the Appliance Client Node and the Appliance Server Node, which communicate through ROS 2 topics and services.
+
+## Architecture Overview
+
+The project's architecture can be visualized as follows:
+
+```plaintext
++------------------------------------+
+|    Smart Home ROS 2 Application    |
++------------------------------------+
+       |              |
+       |              |
+       |              |
+       v              v
++------------+    +--------------+
+| Appliance  |    | Appliance    |
+| Client     |    | Server       |
+| Node       |    | Node         |
++------------+    +--------------+
+    |  |   |         |  |   |
+    v  v   v         v  v   v
++--------+--------+  +--------+--------+
+| ROS 2  | ROS 2  |  | ROS 2  | ROS 2  |
+| Topics | Services|  | Topics | Services|
+| (rclcpp)| (rclcpp)|  | (rclcpp)| (rclcpp)|
++--------+--------+  +--------+--------+
+    |  |   |         |  |   |
+    v  v   v         v  v   v
++------------+   +------------+
+| Topic      |   | Service    |
+| Examples   |   | Examples    |
+| (Control)  |   | (List, Get) |
++------------+   +------------+
+    |  |   |         |  |   |
+    v  v   v         v  v   v
++----------------------------------------+
+|  ROS 2 Middleware Layer               |
+|  (Publish-Subscribe and RPC)        |
++----------------------------------------+
+    |  |   |         |  |   |
+    v  v   v         v  v   v
++----------------------------------------+
+|  Hardware and Appliances             |
+|  (e.g., Lights, TV, Fridge, Boiler) |
++----------------------------------------+
+
+
 
 
 
