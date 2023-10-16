@@ -1,0 +1,9 @@
+[0.086s] Invoking command in '/home/jamshid/Desktop/SME-Lab/week-7-homework/ros2_ws/build/smart_home_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jamshid/Desktop/SME-Lab/week-7-homework/ros2_ws/build/smart_home_cpp -- -j2 -l2
+[0.120s] [31mCMake Error at CMakeLists.txt:5 (rosidl_generate_interfaces):
+[0.120s]   Unknown CMake command "rosidl_generate_interfaces".
+[0.120s] 
+[0.120s] [0m
+[0.120s] -- Configuring incomplete, errors occurred!
+[0.121s] See also "/home/jamshid/Desktop/SME-Lab/week-7-homework/ros2_ws/build/smart_home_cpp/CMakeFiles/CMakeOutput.log".
+[0.125s] gmake: *** [Makefile:623: cmake_check_build_system] Error 1
+[0.133s] Invoked command in '/home/jamshid/Desktop/SME-Lab/week-7-homework/ros2_ws/build/smart_home_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jamshid/Desktop/SME-Lab/week-7-homework/ros2_ws/build/smart_home_cpp -- -j2 -l2

@@ -1,0 +1,4 @@
+[ 11%] Built target smart_home_cpp__rosidl_generator_c
+[ 15%] Built target smart_home_cpp__cpp
+[ 19%] [32mBuilding CXX object CMakeFiles/appliance_server.dir/src/appliance_server.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/appliance_client.dir/src/appliance_client.cpp.o[0m

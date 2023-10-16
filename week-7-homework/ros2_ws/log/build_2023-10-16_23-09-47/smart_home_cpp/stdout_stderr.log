@@ -1,0 +1,18 @@
+[ 11%] Built target smart_home_cpp__rosidl_generator_c
+[ 15%] Built target smart_home_cpp__cpp
+[ 19%] [32mBuilding CXX object CMakeFiles/appliance_server.dir/src/appliance_server.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/appliance_client.dir/src/appliance_client.cpp.o[0m
+[01m[K/home/jamshid/Desktop/SME-Lab/week-7-homework/ros2_ws/src/smart_home_cpp/src/appliance_client.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Ksmart_home_cpp/srv/appliance_control.hpp: No such file or directory
+    3 | #include [01;31m[K"smart_home_cpp/srv/appliance_control.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/appliance_client.dir/build.make:76: CMakeFiles/appliance_client.dir/src/appliance_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:423: CMakeFiles/appliance_client.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/jamshid/Desktop/SME-Lab/week-7-homework/ros2_ws/src/smart_home_cpp/src/appliance_server.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Ksmart_home_cpp/srv/appliance_control.hpp: No such file or directory
+    3 | #include [01;31m[K"smart_home_cpp/srv/appliance_control.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/appliance_server.dir/build.make:76: CMakeFiles/appliance_server.dir/src/appliance_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:397: CMakeFiles/appliance_server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

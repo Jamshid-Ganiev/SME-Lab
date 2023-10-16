@@ -1,0 +1,7 @@
+[31mCMake Error at CMakeLists.txt:5 (rosidl_generate_interfaces):
+  Unknown CMake command "rosidl_generate_interfaces".
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/jamshid/Desktop/SME-Lab/week-7-homework/ros2_ws/build/smart_home_cpp/CMakeFiles/CMakeOutput.log".
+gmake: *** [Makefile:623: cmake_check_build_system] Error 1

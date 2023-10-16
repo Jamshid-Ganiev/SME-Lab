@@ -1,0 +1,19 @@
+{
+  "package_name": "smart_home_cpp",
+  "output_dir": "/home/jamshid/Desktop/SME-Lab/week-7-homework/ros2_ws/build/smart_home_cpp/rosidl_typesupport_fastrtps_cpp/smart_home_cpp",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource",
+  "idl_tuples": [
+    "/home/jamshid/Desktop/SME-Lab/week-7-homework/ros2_ws/build/smart_home_cpp/rosidl_adapter/smart_home_cpp:srv/ApplianceControl.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_fastrtps_cpp/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/idl__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/msg__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
+    "/home/jamshid/Desktop/SME-Lab/week-7-homework/ros2_ws/build/smart_home_cpp/rosidl_adapter/smart_home_cpp/srv/ApplianceControl.idl"
+  ]
+}

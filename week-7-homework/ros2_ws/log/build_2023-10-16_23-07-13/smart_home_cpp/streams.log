@@ -1,0 +1,20 @@
+[0.063s] Invoking command in '/home/jamshid/Desktop/SME-Lab/week-7-homework/ros2_ws/build/smart_home_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jamshid/Desktop/SME-Lab/week-7-homework/ros2_ws/build/smart_home_cpp -- -j2 -l2
+[0.146s] [ 15%] Built target smart_home_cpp__rosidl_generator_c
+[0.147s] [ 15%] Built target smart_home_cpp__cpp
+[0.179s] [ 23%] [32mBuilding CXX object CMakeFiles/appliance_client.dir/src/appliance_client.cpp.o[0m
+[0.180s] [ 23%] [32mBuilding CXX object CMakeFiles/appliance_server.dir/src/appliance_server.cpp.o[0m
+[0.584s] [01m[K/home/jamshid/Desktop/SME-Lab/week-7-homework/ros2_ws/src/smart_home_cpp/src/appliance_server.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Ksmart_home_cpp/srv/appliance_control.hpp: No such file or directory
+[0.584s]     3 | #include [01;31m[K<smart_home_cpp/srv/appliance_control.hpp>[m[K
+[0.584s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.584s] compilation terminated.
+[0.592s] gmake[2]: *** [CMakeFiles/appliance_server.dir/build.make:76: CMakeFiles/appliance_server.dir/src/appliance_server.cpp.o] Error 1
+[0.593s] gmake[1]: *** [CMakeFiles/Makefile2:397: CMakeFiles/appliance_server.dir/all] Error 2
+[0.593s] gmake[1]: *** Waiting for unfinished jobs....
+[0.647s] [01m[K/home/jamshid/Desktop/SME-Lab/week-7-homework/ros2_ws/src/smart_home_cpp/src/appliance_client.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Ksmart_home_cpp/srv/appliance_control.hpp: No such file or directory
+[0.647s]     3 | #include [01;31m[K<smart_home_cpp/srv/appliance_control.hpp>[m[K
+[0.647s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.647s] compilation terminated.
+[0.653s] gmake[2]: *** [CMakeFiles/appliance_client.dir/build.make:76: CMakeFiles/appliance_client.dir/src/appliance_client.cpp.o] Error 1
+[0.653s] gmake[1]: *** [CMakeFiles/Makefile2:423: CMakeFiles/appliance_client.dir/all] Error 2
+[0.656s] gmake: *** [Makefile:146: all] Error 2
+[0.661s] Invoked command in '/home/jamshid/Desktop/SME-Lab/week-7-homework/ros2_ws/build/smart_home_cpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jamshid/Desktop/SME-Lab/week-7-homework/ros2_ws/build/smart_home_cpp -- -j2 -l2

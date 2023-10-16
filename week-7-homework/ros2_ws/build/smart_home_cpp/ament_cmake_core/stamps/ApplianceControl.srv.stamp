@@ -1,0 +1,5 @@
+string appliance      # The name of the appliance to control
+bool on               # True to turn on, false to turn off
+---
+bool success          # Indicates whether the control operation was successful
+string feedback       # Feedback message (optional)

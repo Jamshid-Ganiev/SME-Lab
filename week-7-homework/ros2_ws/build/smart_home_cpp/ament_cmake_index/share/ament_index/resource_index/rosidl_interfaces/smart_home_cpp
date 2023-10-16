@@ -1,0 +1,4 @@
+srv/ApplianceControl.idl
+srv/ApplianceControl.srv
+srv/ApplianceControl_Request.msg
+srv/ApplianceControl_Response.msg

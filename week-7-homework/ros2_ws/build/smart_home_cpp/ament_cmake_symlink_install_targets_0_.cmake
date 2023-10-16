@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jamshid/Desktop/SME-Lab/week-7-homework/ros2_ws/build/smart_home_cpp/appliance_server" "/home/jamshid/Desktop/SME-Lab/week-7-homework/ros2_ws/build/smart_home_cpp/appliance_client" "TARGETS" "appliance_server" "appliance_client" "DESTINATION" "lib/smart_home_cpp")

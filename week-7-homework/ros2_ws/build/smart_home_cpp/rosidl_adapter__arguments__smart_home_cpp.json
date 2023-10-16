@@ -1,0 +1,6 @@
+{
+  "package_name": "smart_home_cpp",
+  "non_idl_tuples": [
+    "/home/jamshid/Desktop/SME-Lab/week-7-homework/ros2_ws/src/smart_home_cpp:srv/ApplianceControl.srv"
+  ]
+}

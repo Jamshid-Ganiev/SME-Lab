@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from smart_home_cpp/srv/ApplianceControl.srv
+// generated code does not contain a copyright notice
+
+
+module smart_home_cpp {
+  module srv {
+    struct ApplianceControl_Request {
+      @verbatim (language="comment", text=
+        "The name of the appliance to control")
+      string appliance;
+
+      @verbatim (language="comment", text=
+        "True to turn on, false to turn off")
+      boolean on;
+    };
+    struct ApplianceControl_Response {
+      @verbatim (language="comment", text=
+        "Indicates whether the control operation was successful")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "Feedback message (optional)")
+      string feedback;
+    };
+  };
+};
