@@ -118,6 +118,8 @@ The script performs the following actions:
 
 ## week 7 | Action server & Action client | Smart home
 # Smart Home ROS Client and Server
+![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/e49a37bf-cb08-4a90-8b5f-828d1cee6665)
+
 
 The Smart Home ROS Client and Server is a ROS 2 (Robot Operating System 2) project that allows users to control and monitor smart home appliances through a user-friendly client application. Simultaneously, it provides a server that handles these appliance control actions seamlessly.
 
