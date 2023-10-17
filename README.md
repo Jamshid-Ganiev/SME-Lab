@@ -4,7 +4,7 @@ Smart Mobility Engineering Lab
 ## Week 2 | Ubuntu Installation:
 ![ubuntu](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/c46a9103-bd95-4a68-93a9-0c072cbbf81d)
 
-## week 4 | ROS2 & RQT | Turtlesim | Calcon
+## week 4 | ROS2 & RQT | Turtlesim | Colcon
 ### TurtleSim Spiral Drawing Script
 ## Overview
 
@@ -32,9 +32,9 @@ The script performs the following actions:
 
   ![Python talker and listener](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/0faf70e4-7816-4026-a4a7-0052e57ee667)
 
+  ### Launching nodes:
 
-
-
+  ![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/bbdda750-3ffc-44e8-ba23-8fb6a0d01961)
 
 # My ROS 2 Project
 
