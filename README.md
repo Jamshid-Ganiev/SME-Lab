@@ -137,65 +137,8 @@ The project consists of two primary components:
 
 The Smart Home ROS Client and Server leverages the ROS 2 Action API to manage appliances efficiently. You can control the state of appliances such as the TV, Fridge, Boiler, Air Conditioner, and Lights with ease. Whether you're at home or away, this project allows you to stay connected with your smart home.
 
-## Results
-
-### Efficient Appliance Control
-The Appliance Server effectively processes user commands and controls smart home appliances. It promptly executes actions like turning devices on or off and provides feedback on the success or failure of these operations.
-
-With the Smart Home ROS Client and Server, you can enjoy enhanced control and monitoring of your smart home appliances, contributing to a more convenient and efficient living environment.
-
-## Prerequisites
-Before getting started, ensure that you have the necessary prerequisites installed on your system. Refer to the [Prerequisites](#prerequisites) section in this README for detailed requirements and setup instructions.
-
-
-## Interaction Diagram:
-# Smart Home ROS 2 Application
-
-The Smart Home ROS 2 Application is designed to control and manage various appliances in a smart home environment. It consists of two primary components: the Appliance Client Node and the Appliance Server Node, which communicate through ROS 2 topics and services.
-
-## Architecture Overview
-
-The project's architecture can be visualized as follows:
-
-```plaintext
-+------------------------------------+
-|    Smart Home ROS 2 Application    |
-+------------------------------------+
-       |              |
-       |              |
-       |              |
-       v              v
-+------------+    +--------------+
-| Appliance  |    | Appliance    |
-| Client     |    | Server       |
-| Node       |    | Node         |
-+------------+    +--------------+
-    |  |   |         |  |   |
-    v  v   v         v  v   v
-+--------+--------+  +--------+--------+
-| ROS 2  | ROS 2  |  | ROS 2  | ROS 2  |
-| Topics | Services|  | Topics | Services|
-| (rclcpp)| (rclcpp)|  | (rclcpp)| (rclcpp)|
-+--------+--------+  +--------+--------+
-    |  |   |         |  |   |
-    v  v   v         v  v   v
-+------------+   +------------+
-| Topic      |   | Service    |
-| Examples   |   | Examples    |
-| (Control)  |   | (List, Get) |
-+------------+   +------------+
-    |  |   |         |  |   |
-    v  v   v         v  v   v
-+----------------------------------------+
-|  ROS 2 Middleware Layer               |
-|  (Publish-Subscribe and RPC)        |
-+----------------------------------------+
-    |  |   |         |  |   |
-    v  v   v         v  v   v
-+----------------------------------------+
-|  Hardware and Appliances             |
-|  (e.g., Lights, TV, Fridge, Boiler) |
-+----------------------------------------+
+## Interaction Diagram | Smart Home Ros2:
+![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/8bb1d70d-a88d-4233-b6e4-20456f353b16)
 
 
 
