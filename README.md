@@ -116,7 +116,7 @@ The script performs the following actions:
 ![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/b1e04d42-4fb2-43c6-8973-0acb9bde1a7a)
 
 
-# week 7 | Action server & Action client | Smart home
+# Week 7 | Action server & Action client | Smart home
 # Smart Home ROS Client and Server
 ![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/e49a37bf-cb08-4a90-8b5f-828d1cee6665)
 
