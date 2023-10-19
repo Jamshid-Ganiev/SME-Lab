@@ -51,10 +51,15 @@ The script performs the following actions:
 ![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/53dc0b59-c1fb-4a89-b6e8-a66659354d77)
 
 
-## week 3 Intermediate | Action & Client Python | Multiple nodes in a single process
+# Week 3 Intermediate | Action & Client Python | Multiple nodes in a single process
 ### fibonacci sequence snapshot:
 ![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/d5d9cf43-d2e8-4187-b994-d8d9026cdb34)
 ![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/264c61c2-c3be-4c72-aa2b-34e2868dab0c)
+
+### writing an action server and client (python)
+
+![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/028cf11e-bf59-45cf-8e03-1be51bb8b34e)
+
 
 ### Multiple nodes in a single process
 ![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/04756a9a-b14d-4bcc-9fa3-1d17e672c831)
