@@ -60,6 +60,7 @@ The script performs the following actions:
 
 ![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/028cf11e-bf59-45cf-8e03-1be51bb8b34e)
 
+![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/67f1438a-90af-47e4-bbc4-ac317a44f0bc)
 
 ### Multiple nodes in a single process
 ![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/04756a9a-b14d-4bcc-9fa3-1d17e672c831)
