@@ -14,7 +14,7 @@ find_package(rosbag2_storage REQUIRED)
 
 
 rosidl_generate_interfaces(smart_home_cpp
-  srv/ApplianceControl.srv
+  srv/ApplianceControl.action
 )
 
 
