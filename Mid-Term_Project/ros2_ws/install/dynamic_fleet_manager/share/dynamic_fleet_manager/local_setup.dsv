@@ -1,0 +1,4 @@
+source;share/dynamic_fleet_manager/environment/ament_prefix_path.sh
+source;share/dynamic_fleet_manager/environment/library_path.sh
+source;share/dynamic_fleet_manager/environment/path.sh
+source;share/dynamic_fleet_manager/environment/pythonpath.sh

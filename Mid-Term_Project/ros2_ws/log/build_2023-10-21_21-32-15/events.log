@@ -1,0 +1,361 @@
+[0.000000] (-) TimerEvent: {}
+[0.000764] (dynamic_fleet_manager) JobQueued: {'identifier': 'dynamic_fleet_manager', 'dependencies': OrderedDict()}
+[0.000819] (dynamic_fleet_manager) JobStarted: {'identifier': 'dynamic_fleet_manager'}
+[0.071578] (dynamic_fleet_manager) JobProgress: {'identifier': 'dynamic_fleet_manager', 'progress': 'cmake'}
+[0.072222] (dynamic_fleet_manager) Command: {'cmd': ['/usr/bin/cmake', '/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/src/dynamic_fleet_manager', '-DCMAKE_INSTALL_PREFIX=/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager'], 'cwd': '/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/build/dynamic_fleet_manager', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'jamshid'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/lib'), ('HOME', '/home/jamshid'), ('OLDPWD', '/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1620'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=676eb9dc275300037f0a43fa6533bd54'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jamshid'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jamshid'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jamshid-virtual-machine:@/tmp/.ICE-unix/1620,unix/jamshid-virtual-machine:/tmp/.ICE-unix/1620'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7f0ef377_72d0_4e10_a11c_fe49f6ece71d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MZGAD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/build/dynamic_fleet_manager'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=676eb9dc275300037f0a43fa6533bd54'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager:/opt/ros/humble')]), 'shell': False}
+[0.099717] (-) TimerEvent: {}
+[0.200434] (-) TimerEvent: {}
+[0.253455] (dynamic_fleet_manager) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.301339] (-) TimerEvent: {}
+[0.401887] (-) TimerEvent: {}
+[0.404337] (dynamic_fleet_manager) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.420966] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.502413] (-) TimerEvent: {}
+[0.557747] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.563895] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.565976] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.567690] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.573722] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.602734] (-) TimerEvent: {}
+[0.691793] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.699804] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.700795] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.702132] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.703047] (-) TimerEvent: {}
+[0.708478] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.805507] (-) TimerEvent: {}
+[0.906336] (-) TimerEvent: {}
+[0.915675] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[1.006862] (-) TimerEvent: {}
+[1.063134] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.071377] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.081757] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.107413] (-) TimerEvent: {}
+[1.152934] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.207841] (-) TimerEvent: {}
+[1.309146] (-) TimerEvent: {}
+[1.409908] (-) TimerEvent: {}
+[1.511228] (-) TimerEvent: {}
+[1.612238] (-) TimerEvent: {}
+[1.641441] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.713926] (-) TimerEvent: {}
+[1.815246] (-) TimerEvent: {}
+[1.916274] (-) TimerEvent: {}
+[1.921703] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.016789] (-) TimerEvent: {}
+[2.117462] (-) TimerEvent: {}
+[2.197834] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.217920] (-) TimerEvent: {}
+[2.221178] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.224101] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.256068] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.256671] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.256824] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.256933] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.286477] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.318644] (-) TimerEvent: {}
+[2.330437] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.379229] (dynamic_fleet_manager) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.380617] (dynamic_fleet_manager) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.382039] (dynamic_fleet_manager) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.384469] (dynamic_fleet_manager) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.394362] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.419223] (-) TimerEvent: {}
+[2.440091] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Generating done\n'}
+[2.443606] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Build files have been written to: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/build/dynamic_fleet_manager\n'}
+[2.455643] (dynamic_fleet_manager) CommandEnded: {'returncode': 0}
+[2.457098] (dynamic_fleet_manager) JobProgress: {'identifier': 'dynamic_fleet_manager', 'progress': 'build'}
+[2.457243] (dynamic_fleet_manager) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/build/dynamic_fleet_manager', '--', '-j2', '-l2'], 'cwd': '/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/build/dynamic_fleet_manager', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'jamshid'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/lib'), ('HOME', '/home/jamshid'), ('OLDPWD', '/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1620'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=676eb9dc275300037f0a43fa6533bd54'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jamshid'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jamshid'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jamshid-virtual-machine:@/tmp/.ICE-unix/1620,unix/jamshid-virtual-machine:/tmp/.ICE-unix/1620'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7f0ef377_72d0_4e10_a11c_fe49f6ece71d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MZGAD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/build/dynamic_fleet_manager'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=676eb9dc275300037f0a43fa6533bd54'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager:/opt/ros/humble')]), 'shell': False}
+[2.513079] (dynamic_fleet_manager) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.519974] (-) TimerEvent: {}
+[2.534842] (dynamic_fleet_manager) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.620471] (-) TimerEvent: {}
+[2.721803] (-) TimerEvent: {}
+[2.827289] (-) TimerEvent: {}
+[2.928183] (-) TimerEvent: {}
+[3.029343] (-) TimerEvent: {}
+[3.130209] (-) TimerEvent: {}
+[3.231171] (-) TimerEvent: {}
+[3.330079] (dynamic_fleet_manager) StdoutLine: {'line': b'[  6%] Built target dynamic_fleet_manager__cpp\n'}
+[3.331706] (-) TimerEvent: {}
+[3.424829] (dynamic_fleet_manager) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_dynamic_fleet_manager\n'}
+[3.434029] (-) TimerEvent: {}
+[3.469818] (dynamic_fleet_manager) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.534285] (-) TimerEvent: {}
+[3.569466] (dynamic_fleet_manager) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/dynamic_fleet_manager__rosidl_generator_c.dir/rosidl_generator_c/dynamic_fleet_manager/action/detail/fleet_management__functions.c.o\x1b[0m\n'}
+[3.637822] (-) TimerEvent: {}
+[3.741859] (-) TimerEvent: {}
+[3.849480] (-) TimerEvent: {}
+[3.957620] (-) TimerEvent: {}
+[3.969053] (dynamic_fleet_manager) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking C shared library libdynamic_fleet_manager__rosidl_generator_c.so\x1b[0m\n'}
+[4.058176] (-) TimerEvent: {}
+[4.091982] (dynamic_fleet_manager) StdoutLine: {'line': b'[ 16%] Built target dynamic_fleet_manager__rosidl_generator_c\n'}
+[4.136507] (dynamic_fleet_manager) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.158740] (-) TimerEvent: {}
+[4.261759] (-) TimerEvent: {}
+[4.329259] (dynamic_fleet_manager) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/dynamic_fleet_manager__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamic_fleet_manager/action/fleet_management__type_support.cpp.o\x1b[0m\n'}
+[4.365390] (-) TimerEvent: {}
+[4.466130] (-) TimerEvent: {}
+[4.567330] (-) TimerEvent: {}
+[4.668117] (-) TimerEvent: {}
+[4.769232] (-) TimerEvent: {}
+[4.869776] (-) TimerEvent: {}
+[4.970780] (-) TimerEvent: {}
+[5.071499] (-) TimerEvent: {}
+[5.172530] (-) TimerEvent: {}
+[5.273504] (-) TimerEvent: {}
+[5.349327] (dynamic_fleet_manager) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/dynamic_fleet_manager__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamic_fleet_manager/action/detail/dds_fastrtps/fleet_management__type_support.cpp.o\x1b[0m\n'}
+[5.374100] (-) TimerEvent: {}
+[5.475113] (-) TimerEvent: {}
+[5.577810] (-) TimerEvent: {}
+[5.606969] (dynamic_fleet_manager) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking CXX shared library libdynamic_fleet_manager__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.685495] (-) TimerEvent: {}
+[5.769050] (dynamic_fleet_manager) StdoutLine: {'line': b'[ 29%] Built target dynamic_fleet_manager__rosidl_typesupport_cpp\n'}
+[5.785733] (-) TimerEvent: {}
+[5.830120] (dynamic_fleet_manager) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.889446] (-) TimerEvent: {}
+[5.993438] (-) TimerEvent: {}
+[6.097402] (-) TimerEvent: {}
+[6.201284] (-) TimerEvent: {}
+[6.305626] (-) TimerEvent: {}
+[6.409358] (-) TimerEvent: {}
+[6.510262] (-) TimerEvent: {}
+[6.617602] (-) TimerEvent: {}
+[6.718478] (dynamic_fleet_manager) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/dynamic_fleet_manager__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamic_fleet_manager/action/detail/fleet_management__type_support.cpp.o\x1b[0m\n'}
+[6.719241] (-) TimerEvent: {}
+[6.820156] (-) TimerEvent: {}
+[6.921699] (-) TimerEvent: {}
+[7.025773] (-) TimerEvent: {}
+[7.127045] (-) TimerEvent: {}
+[7.128026] (dynamic_fleet_manager) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libdynamic_fleet_manager__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.227455] (-) TimerEvent: {}
+[7.328210] (-) TimerEvent: {}
+[7.429440] (-) TimerEvent: {}
+[7.463332] (dynamic_fleet_manager) StdoutLine: {'line': b'[ 38%] Built target dynamic_fleet_manager__rosidl_typesupport_fastrtps_cpp\n'}
+[7.529912] (-) TimerEvent: {}
+[7.630948] (-) TimerEvent: {}
+[7.731760] (-) TimerEvent: {}
+[7.832549] (-) TimerEvent: {}
+[7.933656] (-) TimerEvent: {}
+[8.034451] (-) TimerEvent: {}
+[8.135293] (-) TimerEvent: {}
+[8.159296] (dynamic_fleet_manager) StdoutLine: {'line': b'running egg_info\n'}
+[8.160865] (dynamic_fleet_manager) StdoutLine: {'line': b'creating dynamic_fleet_manager.egg-info\n'}
+[8.165933] (dynamic_fleet_manager) StdoutLine: {'line': b'writing dynamic_fleet_manager.egg-info/PKG-INFO\n'}
+[8.166391] (dynamic_fleet_manager) StdoutLine: {'line': b'writing dependency_links to dynamic_fleet_manager.egg-info/dependency_links.txt\n'}
+[8.166904] (dynamic_fleet_manager) StdoutLine: {'line': b'writing top-level names to dynamic_fleet_manager.egg-info/top_level.txt\n'}
+[8.169101] (dynamic_fleet_manager) StdoutLine: {'line': b"writing manifest file 'dynamic_fleet_manager.egg-info/SOURCES.txt'\n"}
+[8.185372] (dynamic_fleet_manager) StdoutLine: {'line': b"reading manifest file 'dynamic_fleet_manager.egg-info/SOURCES.txt'\n"}
+[8.185704] (dynamic_fleet_manager) StdoutLine: {'line': b"writing manifest file 'dynamic_fleet_manager.egg-info/SOURCES.txt'\n"}
+[8.235996] (-) TimerEvent: {}
+[8.305320] (dynamic_fleet_manager) StdoutLine: {'line': b'[ 38%] Built target ament_cmake_python_build_dynamic_fleet_manager_egg\n'}
+[8.341771] (-) TimerEvent: {}
+[8.354886] (dynamic_fleet_manager) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.425543] (dynamic_fleet_manager) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libdynamic_fleet_manager__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.442212] (-) TimerEvent: {}
+[8.544032] (-) TimerEvent: {}
+[8.644703] (-) TimerEvent: {}
+[8.745735] (-) TimerEvent: {}
+[8.763754] (dynamic_fleet_manager) StdoutLine: {'line': b'[ 45%] Built target dynamic_fleet_manager__rosidl_typesupport_introspection_cpp\n'}
+[8.787479] (dynamic_fleet_manager) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[8.846240] (-) TimerEvent: {}
+[8.947036] (-) TimerEvent: {}
+[9.048121] (-) TimerEvent: {}
+[9.148889] (-) TimerEvent: {}
+[9.158684] (dynamic_fleet_manager) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/dynamic_fleet_manager__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamic_fleet_manager/action/detail/fleet_management__type_support_c.cpp.o\x1b[0m\n'}
+[9.249229] (-) TimerEvent: {}
+[9.349841] (-) TimerEvent: {}
+[9.367948] (dynamic_fleet_manager) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/dynamic_fleet_manager__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamic_fleet_manager/action/detail/fleet_management__type_support.c.o\x1b[0m\n'}
+[9.450223] (-) TimerEvent: {}
+[9.460415] (dynamic_fleet_manager) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libdynamic_fleet_manager__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.518213] (dynamic_fleet_manager) StdoutLine: {'line': b'[ 58%] Built target dynamic_fleet_manager__rosidl_typesupport_introspection_c\n'}
+[9.531681] (dynamic_fleet_manager) StdoutLine: {'line': b'[ 61%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[9.550889] (-) TimerEvent: {}
+[9.651923] (-) TimerEvent: {}
+[9.740396] (dynamic_fleet_manager) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libdynamic_fleet_manager__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.752373] (-) TimerEvent: {}
+[9.853293] (-) TimerEvent: {}
+[9.916317] (dynamic_fleet_manager) StdoutLine: {'line': b'[ 64%] Built target dynamic_fleet_manager__rosidl_typesupport_fastrtps_c\n'}
+[9.953977] (-) TimerEvent: {}
+[9.968730] (dynamic_fleet_manager) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/dynamic_fleet_manager__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamic_fleet_manager/action/fleet_management__type_support.cpp.o\x1b[0m\n'}
+[10.039121] (dynamic_fleet_manager) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libdynamic_fleet_manager__rosidl_typesupport_c.so\x1b[0m\n'}
+[10.054781] (-) TimerEvent: {}
+[10.119824] (dynamic_fleet_manager) StdoutLine: {'line': b'[ 70%] Built target dynamic_fleet_manager__rosidl_typesupport_c\n'}
+[10.154659] (dynamic_fleet_manager) StdoutLine: {'line': b'[ 70%] Built target dynamic_fleet_manager\n'}
+[10.155541] (-) TimerEvent: {}
+[10.196859] (dynamic_fleet_manager) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[10.256323] (-) TimerEvent: {}
+[10.356953] (-) TimerEvent: {}
+[10.457550] (-) TimerEvent: {}
+[10.558414] (-) TimerEvent: {}
+[10.659385] (-) TimerEvent: {}
+[10.760047] (-) TimerEvent: {}
+[10.861198] (-) TimerEvent: {}
+[10.962047] (-) TimerEvent: {}
+[10.976662] (dynamic_fleet_manager) StdoutLine: {'line': b'[ 74%] Built target dynamic_fleet_manager__py\n'}
+[11.010746] (dynamic_fleet_manager) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/dynamic_fleet_manager__rosidl_generator_py.dir/rosidl_generator_py/dynamic_fleet_manager/action/_fleet_management_s.c.o\x1b[0m\n'}
+[11.062676] (-) TimerEvent: {}
+[11.163795] (-) TimerEvent: {}
+[11.165960] (dynamic_fleet_manager) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dynamic_fleet_manager/libdynamic_fleet_manager__rosidl_generator_py.so\x1b[0m\n'}
+[11.228815] (dynamic_fleet_manager) StdoutLine: {'line': b'[ 80%] Built target dynamic_fleet_manager__rosidl_generator_py\n'}
+[11.263830] (dynamic_fleet_manager) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/dynamic_fleet_manager__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/dynamic_fleet_manager/_dynamic_fleet_manager_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[11.264109] (-) TimerEvent: {}
+[11.276736] (dynamic_fleet_manager) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/dynamic_fleet_manager__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dynamic_fleet_manager/_dynamic_fleet_manager_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[11.364734] (-) TimerEvent: {}
+[11.429940] (dynamic_fleet_manager) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dynamic_fleet_manager/dynamic_fleet_manager_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.465221] (-) TimerEvent: {}
+[11.472296] (dynamic_fleet_manager) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dynamic_fleet_manager/dynamic_fleet_manager_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.481133] (dynamic_fleet_manager) StdoutLine: {'line': b'[ 93%] Built target dynamic_fleet_manager__rosidl_typesupport_introspection_c__pyext\n'}
+[11.519393] (dynamic_fleet_manager) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/dynamic_fleet_manager__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dynamic_fleet_manager/_dynamic_fleet_manager_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[11.535374] (dynamic_fleet_manager) StdoutLine: {'line': b'[ 96%] Built target dynamic_fleet_manager__rosidl_typesupport_fastrtps_c__pyext\n'}
+[11.565427] (-) TimerEvent: {}
+[11.655592] (dynamic_fleet_manager) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dynamic_fleet_manager/dynamic_fleet_manager_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.665971] (-) TimerEvent: {}
+[11.710025] (dynamic_fleet_manager) StdoutLine: {'line': b'[100%] Built target dynamic_fleet_manager__rosidl_typesupport_c__pyext\n'}
+[11.729590] (dynamic_fleet_manager) CommandEnded: {'returncode': 0}
+[11.766399] (-) TimerEvent: {}
+[11.863881] (dynamic_fleet_manager) JobProgress: {'identifier': 'dynamic_fleet_manager', 'progress': 'install'}
+[11.866847] (-) TimerEvent: {}
+[11.876727] (dynamic_fleet_manager) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/build/dynamic_fleet_manager'], 'cwd': '/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/build/dynamic_fleet_manager', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'jamshid'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/lib'), ('HOME', '/home/jamshid'), ('OLDPWD', '/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1620'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=676eb9dc275300037f0a43fa6533bd54'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jamshid'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jamshid'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jamshid-virtual-machine:@/tmp/.ICE-unix/1620,unix/jamshid-virtual-machine:/tmp/.ICE-unix/1620'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7f0ef377_72d0_4e10_a11c_fe49f6ece71d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MZGAD2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/build/dynamic_fleet_manager'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=676eb9dc275300037f0a43fa6533bd54'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager:/opt/ros/humble')]), 'shell': False}
+[11.887300] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.888386] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/ament_index/resource_index/rosidl_interfaces/dynamic_fleet_manager\n'}
+[11.890079] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager\n'}
+[11.891154] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action\n'}
+[11.891907] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/detail\n'}
+[11.892772] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/detail/fleet_management__type_support.h\n'}
+[11.900538] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/detail/fleet_management__functions.c\n'}
+[11.901712] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/detail/fleet_management__functions.h\n'}
+[11.903395] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/detail/fleet_management__struct.h\n'}
+[11.904118] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/fleet_management.h\n'}
+[11.904606] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/msg\n'}
+[11.904904] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.905581] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/environment/library_path.sh\n'}
+[11.906579] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/environment/library_path.dsv\n'}
+[11.907928] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/lib/libdynamic_fleet_manager__rosidl_generator_c.so\n'}
+[11.908682] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Set runtime path of "/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/lib/libdynamic_fleet_manager__rosidl_generator_c.so" to ""\n'}
+[11.909028] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager\n'}
+[11.909867] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action\n'}
+[11.910104] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/detail\n'}
+[11.910304] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/detail/fleet_management__rosidl_typesupport_fastrtps_c.h\n'}
+[11.910723] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/msg\n'}
+[11.911011] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.911387] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/lib/libdynamic_fleet_manager__rosidl_typesupport_fastrtps_c.so\n'}
+[11.912056] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Set runtime path of "/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/lib/libdynamic_fleet_manager__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[11.912286] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager\n'}
+[11.912493] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action\n'}
+[11.912671] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/detail\n'}
+[11.912955] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/detail/fleet_management__rosidl_typesupport_introspection_c.h\n'}
+[11.913538] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/detail/fleet_management__type_support.c\n'}
+[11.914008] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/msg\n'}
+[11.914214] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.914697] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/lib/libdynamic_fleet_manager__rosidl_typesupport_introspection_c.so\n'}
+[11.915269] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Set runtime path of "/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/lib/libdynamic_fleet_manager__rosidl_typesupport_introspection_c.so" to ""\n'}
+[11.915618] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/lib/libdynamic_fleet_manager__rosidl_typesupport_c.so\n'}
+[11.916150] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Set runtime path of "/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/lib/libdynamic_fleet_manager__rosidl_typesupport_c.so" to ""\n'}
+[11.916363] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager\n'}
+[11.916640] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action\n'}
+[11.916838] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/detail\n'}
+[11.917028] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/detail/fleet_management__traits.hpp\n'}
+[11.917627] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/detail/fleet_management__struct.hpp\n'}
+[11.918090] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/detail/fleet_management__builder.hpp\n'}
+[11.918406] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/fleet_management.hpp\n'}
+[11.918745] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager\n'}
+[11.919049] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action\n'}
+[11.919248] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/detail\n'}
+[11.919498] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/detail/dds_fastrtps\n'}
+[11.919780] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/detail/fleet_management__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.920098] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/msg\n'}
+[11.920298] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.920775] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/lib/libdynamic_fleet_manager__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.921712] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Set runtime path of "/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/lib/libdynamic_fleet_manager__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[11.922037] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager\n'}
+[11.922241] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action\n'}
+[11.922418] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Up-to-date: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/detail\n'}
+[11.922636] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/detail/fleet_management__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.923070] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/detail/fleet_management__type_support.cpp\n'}
+[11.923589] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/lib/libdynamic_fleet_manager__rosidl_typesupport_introspection_cpp.so\n'}
+[11.924320] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Set runtime path of "/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/lib/libdynamic_fleet_manager__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[11.924585] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/lib/libdynamic_fleet_manager__rosidl_typesupport_cpp.so\n'}
+[11.925344] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Set runtime path of "/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/lib/libdynamic_fleet_manager__rosidl_typesupport_cpp.so" to ""\n'}
+[11.925668] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/environment/pythonpath.sh\n'}
+[11.926040] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/environment/pythonpath.dsv\n'}
+[11.926359] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager-0.1.0-py3.10.egg-info\n'}
+[11.926787] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager-0.1.0-py3.10.egg-info/PKG-INFO\n'}
+[11.927074] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager-0.1.0-py3.10.egg-info/top_level.txt\n'}
+[11.927337] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager-0.1.0-py3.10.egg-info/dependency_links.txt\n'}
+[11.927604] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager-0.1.0-py3.10.egg-info/SOURCES.txt\n'}
+[11.928065] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager\n'}
+[11.928340] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/action\n'}
+[11.928574] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/action/_fleet_management.py\n'}
+[11.928997] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/action/_fleet_management_s.c\n'}
+[11.929328] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/action/__init__.py\n'}
+[11.929922] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/_dynamic_fleet_manager_s.ep.rosidl_typesupport_c.c\n'}
+[11.930395] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/_dynamic_fleet_manager_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[11.930734] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/dynamic_fleet_manager_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.931095] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/dynamic_fleet_manager_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.931515] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/__init__.py\n'}
+[11.931770] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/_dynamic_fleet_manager_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[11.932086] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/libdynamic_fleet_manager__rosidl_generator_py.so\n'}
+[11.932499] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/dynamic_fleet_manager_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.967394] (-) TimerEvent: {}
+[11.982240] (dynamic_fleet_manager) StdoutLine: {'line': b"Listing '/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager'...\n"}
+[11.982675] (dynamic_fleet_manager) StdoutLine: {'line': b"Compiling '/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/__init__.py'...\n"}
+[11.982788] (dynamic_fleet_manager) StdoutLine: {'line': b"Listing '/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/action'...\n"}
+[11.982868] (dynamic_fleet_manager) StdoutLine: {'line': b"Compiling '/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/action/__init__.py'...\n"}
+[11.982941] (dynamic_fleet_manager) StdoutLine: {'line': b"Compiling '/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/action/_fleet_management.py'...\n"}
+[11.989652] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/dynamic_fleet_manager_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.990521] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Set runtime path of "/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/dynamic_fleet_manager_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.991088] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/dynamic_fleet_manager_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.992290] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Set runtime path of "/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/dynamic_fleet_manager_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.993014] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/dynamic_fleet_manager_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.993962] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Set runtime path of "/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/dynamic_fleet_manager_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.994573] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/lib/libdynamic_fleet_manager__rosidl_generator_py.so\n'}
+[11.995658] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Set runtime path of "/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/lib/libdynamic_fleet_manager__rosidl_generator_py.so" to ""\n'}
+[11.996557] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/action/FleetManagement.idl\n'}
+[11.997914] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/action/FleetManagement.action\n'}
+[11.998427] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/ament_index/resource_index/package_run_dependencies/dynamic_fleet_manager\n'}
+[11.998951] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/ament_index/resource_index/parent_prefix_path/dynamic_fleet_manager\n'}
+[11.999428] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/environment/ament_prefix_path.sh\n'}
+[11.999983] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/environment/ament_prefix_path.dsv\n'}
+[12.000524] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/environment/path.sh\n'}
+[12.001060] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/environment/path.dsv\n'}
+[12.001746] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/local_setup.bash\n'}
+[12.002102] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/local_setup.sh\n'}
+[12.002740] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/local_setup.zsh\n'}
+[12.003884] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/local_setup.dsv\n'}
+[12.004353] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/package.dsv\n'}
+[12.004834] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/ament_index/resource_index/packages/dynamic_fleet_manager\n'}
+[12.005502] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/export_dynamic_fleet_manager__rosidl_generator_cExport.cmake\n'}
+[12.005983] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/export_dynamic_fleet_manager__rosidl_generator_cExport-noconfig.cmake\n'}
+[12.006337] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/export_dynamic_fleet_manager__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[12.006653] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/export_dynamic_fleet_manager__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[12.007146] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/dynamic_fleet_manager__rosidl_typesupport_introspection_cExport.cmake\n'}
+[12.007552] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/dynamic_fleet_manager__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[12.007900] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/dynamic_fleet_manager__rosidl_typesupport_cExport.cmake\n'}
+[12.008444] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/dynamic_fleet_manager__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[12.008817] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/export_dynamic_fleet_manager__rosidl_generator_cppExport.cmake\n'}
+[12.009500] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/export_dynamic_fleet_manager__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[12.009972] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/export_dynamic_fleet_manager__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[12.010413] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/dynamic_fleet_manager__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[12.010777] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/dynamic_fleet_manager__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[12.011143] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/dynamic_fleet_manager__rosidl_typesupport_cppExport.cmake\n'}
+[12.011576] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/dynamic_fleet_manager__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[12.011930] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/export_dynamic_fleet_manager__rosidl_generator_pyExport.cmake\n'}
+[12.012258] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/export_dynamic_fleet_manager__rosidl_generator_pyExport-noconfig.cmake\n'}
+[12.012754] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/rosidl_cmake-extras.cmake\n'}
+[12.013369] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.014113] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.014488] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.014990] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.015435] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[12.015768] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[12.016089] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/dynamic_fleet_managerConfig.cmake\n'}
+[12.016462] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/dynamic_fleet_managerConfig-version.cmake\n'}
+[12.016799] (dynamic_fleet_manager) StdoutLine: {'line': b'-- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/package.xml\n'}
+[12.032595] (dynamic_fleet_manager) CommandEnded: {'returncode': 0}
+[12.068659] (-) TimerEvent: {}
+[12.169685] (-) TimerEvent: {}
+[12.270466] (-) TimerEvent: {}
+[12.371242] (-) TimerEvent: {}
+[12.415855] (dynamic_fleet_manager) JobEnded: {'identifier': 'dynamic_fleet_manager', 'rc': 0}
+[12.417282] (-) EventReactorShutdown: {}

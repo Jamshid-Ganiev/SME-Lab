@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>dynamic_fleet_manager</name>
+  <version>0.1.0</version>
+  <description>
+    This ROS2 project, named "Fleet Management," is designed to manage and allocate a fleet of vehicles efficiently. It includes the following components:
+
+    1. **ROS2 Action Definition (`fleet_management.action`):** Defines the ROS2 Action structure, with an Action Goal to specify the fleet size, an Action Result to store vehicle routes, and an Action Feedback to track the completion percentage of fleet management tasks.
+
+    2. **Action Server (`fleet_management_server_cli.py` - Task 2):** A Python script that implements the Action Server. It receives fleet size requests, performs fleet management logic (e.g., allocation and routing), and returns calculated routes as the Action Result. It includes proper error handling and logging.
+
+    3. **Action Client (`fleet_management_client_cli.py` - Task 3):** A Python script that acts as the Action Client. It allows users to request fleet management tasks by specifying the fleet size. It sends the request to the server, receives the routes in response, and displays them to the user.
+
+    4. **Professional CLI (`professional_cli.py` - Task 4):** A Command Line Interface (CLI) designed using the Click library. It provides users with the option to allocate and route vehicles by specifying the fleet size. It internally calls the Action Client CLI to perform the task.
+
+    5. **Testing with Scenarios (`scenarios` - Task 5):** Two detailed scenarios with real data for testing the application are provided. Each scenario includes the goal description, fleet size, and expected output (vehicle routes) for testing and validation.
+
+    6. **Documentation (`README.md` - Task 6):** A detailed README.md file that explains how to set up and run the ROS2 application. It includes instructions for building the package, launching the ROS2 master, and using the professional CLI. The documentation also covers the testing scenarios and provides any additional information necessary for users.
+
+    This project aims to streamline fleet management tasks using ROS2, making it accessible via a user-friendly CLI and providing comprehensive documentation for users.
+</description>
+  <maintainer email="12200335@inha.edu">Jamshid Ganiev</maintainer>
+  <license>Apache License 2.0</license>
+  
+
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+  <depend>action_msgs</depend>
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

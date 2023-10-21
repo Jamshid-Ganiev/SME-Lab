@@ -1,0 +1,277 @@
+{
+    "cities": {
+      "Seoul": {
+        "Busan": {
+          "distance_km": 325,
+          "time_hours": 3.5
+        },
+        "Incheon": {
+          "distance_km": 29,
+          "time_hours": 1.5
+        },
+        "Daegu": {
+          "distance_km": 237,
+          "time_hours": 2.5
+        },
+        "Daejeon": {
+          "distance_km": 160,
+          "time_hours": 1.5
+        },
+        "Gwangju": {
+          "distance_km": 330,
+          "time_hours": 3.0
+        },
+        "Ulsan": {
+          "distance_km": 335,
+          "time_hours": 3.5
+        },
+        "Suwon": {
+          "distance_km": 34,
+          "time_hours": 1.5
+        },
+        "Changwon": {
+          "distance_km": 370,
+          "time_hours": 4.0
+        }
+      },
+      "Busan": {
+        "Seoul": {
+          "distance_km": 325,
+          "time_hours": 3.5
+        },
+        "Incheon": {
+          "distance_km": 328,
+          "time_hours": 3.5
+        },
+        "Daegu": {
+          "distance_km": 76,
+          "time_hours": 1.0
+        },
+        "Daejeon": {
+          "distance_km": 235,
+          "time_hours": 2.5
+        },
+        "Gwangju": {
+          "distance_km": 353,
+          "time_hours": 3.5
+        },
+        "Ulsan": {
+          "distance_km": 65,
+          "time_hours": 1.0
+        },
+        "Suwon": {
+          "distance_km": 322,
+          "time_hours": 3.5
+        },
+        "Changwon": {
+          "distance_km": 52,
+          "time_hours": 1.5
+        }
+      },
+      "Incheon": {
+        "Seoul": {
+          "distance_km": 29,
+          "time_hours": 0.5
+        },
+        "Busan": {
+          "distance_km": 328,
+          "time_hours": 3.5
+        },
+        "Daegu": {
+          "distance_km": 263,
+          "time_hours": 2.5
+        },
+        "Daejeon": {
+          "distance_km": 164,
+          "time_hours": 1.5
+        },
+        "Gwangju": {
+          "distance_km": 309,
+          "time_hours": 3.0
+        },
+        "Ulsan": {
+          "distance_km": 289,
+          "time_hours": 3.0
+        },
+        "Suwon": {
+          "distance_km": 18,
+          "time_hours": 0.5
+        },
+        "Changwon": {
+          "distance_km": 353,
+          "time_hours": 3.5
+        }
+      },
+      "Daegu": {
+        "Seoul": {
+          "distance_km": 237,
+          "time_hours": 2.5
+        },
+        "Busan": {
+          "distance_km": 76,
+          "time_hours": 1.0
+        },
+        "Incheon": {
+          "distance_km": 263,
+          "time_hours": 2.5
+        },
+        "Daejeon": {
+          "distance_km": 115,
+          "time_hours": 1.5
+        },
+        "Gwangju": {
+          "distance_km": 347,
+          "time_hours": 3.5
+        },
+        "Ulsan": {
+          "distance_km": 126,
+          "time_hours": 1.5
+        },
+        "Suwon": {
+          "distance_km": 230,
+          "time_hours": 2.5
+        },
+        "Changwon": {
+          "distance_km": 81,
+          "time_hours": 1.0
+        }
+      },
+      "Daejeon": {
+        "Seoul": {
+          "distance_km": 160,
+          "time_hours": 1.5
+        },
+        "Busan": {
+          "distance_km": 235,
+          "time_hours": 2.5
+        },
+        "Incheon": {
+          "distance_km": 164,
+          "time_hours": 1.5
+        },
+        "Daegu": {
+          "distance_km": 115,
+          "time_hours": 1.5
+        },
+        "Gwangju": {
+          "distance_km": 218,
+          "time_hours": 2.0
+        },
+        "Ulsan": {
+          "distance_km": 199,
+          "time_hours": 2.0
+        },
+        "Suwon": {
+          "distance_km": 127,
+          "time_hours": 1.5
+        },
+        "Changwon": {
+          "distance_km": 270,
+          "time_hours": 2.5
+        }
+      },
+      "Gwangju": {
+        "Seoul": {
+          "distance_km": 330,
+          "time_hours": 3.5
+        },
+        "Busan": {
+          "distance_km": 353,
+          "time_hours": 3.5
+        },
+        "Incheon": {
+          "distance_km": 309,
+          "time_hours": 3.0
+        },
+        "Daegu": {
+          "distance_km": 347,
+          "time_hours": 3.5
+        },
+        "Daejeon": {
+          "distance_km": 218,
+          "time_hours": 2.5
+        },
+        "Ulsan": {
+          "distance_km": 277,
+          "time_hours": 3.0
+        },
+        "Suwon": {
+          "distance_km": 314,
+          "time_hours": 3.5
+        },
+        "Changwon": {
+          "distance_km": 413,
+          "time_hours": 4.5
+        }
+      },
+      "Ulsan": {
+        "Seoul": {
+          "distance_km": 335,
+          "time_hours": 3.5
+        },
+        "Busan": {
+          "distance_km": 65,
+          "time_hours": 1.0
+        },
+        "Incheon": {
+          "distance_km": 289,
+          "time_hours": 3.0
+        },
+        "Daegu": {
+          "distance_km": 126,
+          "time_hours": 1.5
+        },
+        "Daejeon": {
+          "distance_km": 199,
+          "time_hours": 2.0
+        },
+        "Gwangju": {
+          "distance_km": 277,
+          "time_hours": 3.0
+        },
+        "Suwon": {
+          "distance_km": 300,
+          "time_hours": 3.0
+        },
+        "Changwon": {
+          "distance_km": 81,
+          "time_hours": 1.0
+        }
+      },
+      "Suwon": {
+        "Seoul": {
+          "distance_km": 34,
+          "time_hours": 0.5
+        },
+        "Busan": {
+          "distance_km": 322,
+          "time_hours": 3.5
+        },
+        "Incheon": {
+          "distance_km": 18,
+          "time_hours": 0.5
+        },
+        "Daegu": {
+          "distance_km": 230,
+          "time_hours": 2.5
+        },
+        "Daejeon": {
+          "distance_km": 127,
+          "time_hours": 1.5
+        },
+        "Gwangju": {
+          "distance_km": 314,
+          "time_hours": 3.5
+        },
+        "Ulsan": {
+          "distance_km": 300,
+          "time_hours": 3.0
+        },
+        "Changwon": {
+          "distance_km": 324,
+          "time_hours": 3.5
+        }
+      }
+    }
+  }
+  

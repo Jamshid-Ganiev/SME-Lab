@@ -1,0 +1,231 @@
+[0.072s] Invoking command in '/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/build/dynamic_fleet_manager': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/src/dynamic_fleet_manager -DCMAKE_INSTALL_PREFIX=/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager
+[0.253s] -- The C compiler identification is GNU 11.4.0
+[0.404s] -- The CXX compiler identification is GNU 11.4.0
+[0.420s] -- Detecting C compiler ABI info
+[0.557s] -- Detecting C compiler ABI info - done
+[0.563s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.565s] -- Detecting C compile features
+[0.567s] -- Detecting C compile features - done
+[0.573s] -- Detecting CXX compiler ABI info
+[0.691s] -- Detecting CXX compiler ABI info - done
+[0.699s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.700s] -- Detecting CXX compile features
+[0.701s] -- Detecting CXX compile features - done
+[0.708s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.915s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.063s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.071s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.082s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.155s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.641s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.921s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.197s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.221s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.223s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.256s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.256s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.256s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.256s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.286s] -- Found PythonExtra: .so  
+[2.330s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.379s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.380s] -- Added test 'lint_cmake' to check CMake code style
+[2.382s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.384s] -- Added test 'xmllint' to check XML markup files
+[2.394s] -- Configuring done
+[2.439s] -- Generating done
+[2.443s] -- Build files have been written to: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/build/dynamic_fleet_manager
+[2.456s] Invoked command in '/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/build/dynamic_fleet_manager' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/src/dynamic_fleet_manager -DCMAKE_INSTALL_PREFIX=/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager
+[2.457s] Invoking command in '/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/build/dynamic_fleet_manager': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/build/dynamic_fleet_manager -- -j2 -l2
+[2.513s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.535s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.330s] [  6%] Built target dynamic_fleet_manager__cpp
+[3.425s] [  6%] Built target ament_cmake_python_copy_dynamic_fleet_manager
+[3.469s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.569s] [ 12%] [32mBuilding C object CMakeFiles/dynamic_fleet_manager__rosidl_generator_c.dir/rosidl_generator_c/dynamic_fleet_manager/action/detail/fleet_management__functions.c.o[0m
+[3.969s] [ 16%] [32m[1mLinking C shared library libdynamic_fleet_manager__rosidl_generator_c.so[0m
+[4.091s] [ 16%] Built target dynamic_fleet_manager__rosidl_generator_c
+[4.136s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.333s] [ 22%] [32mBuilding CXX object CMakeFiles/dynamic_fleet_manager__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dynamic_fleet_manager/action/fleet_management__type_support.cpp.o[0m
+[5.349s] [ 25%] [32mBuilding CXX object CMakeFiles/dynamic_fleet_manager__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dynamic_fleet_manager/action/detail/dds_fastrtps/fleet_management__type_support.cpp.o[0m
+[5.606s] [ 29%] [32m[1mLinking CXX shared library libdynamic_fleet_manager__rosidl_typesupport_cpp.so[0m
+[5.769s] [ 29%] Built target dynamic_fleet_manager__rosidl_typesupport_cpp
+[5.829s] [ 32%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.718s] [ 35%] [32mBuilding CXX object CMakeFiles/dynamic_fleet_manager__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dynamic_fleet_manager/action/detail/fleet_management__type_support.cpp.o[0m
+[7.128s] [ 38%] [32m[1mLinking CXX shared library libdynamic_fleet_manager__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.463s] [ 38%] Built target dynamic_fleet_manager__rosidl_typesupport_fastrtps_cpp
+[8.159s] running egg_info
+[8.164s] creating dynamic_fleet_manager.egg-info
+[8.165s] writing dynamic_fleet_manager.egg-info/PKG-INFO
+[8.166s] writing dependency_links to dynamic_fleet_manager.egg-info/dependency_links.txt
+[8.166s] writing top-level names to dynamic_fleet_manager.egg-info/top_level.txt
+[8.168s] writing manifest file 'dynamic_fleet_manager.egg-info/SOURCES.txt'
+[8.185s] reading manifest file 'dynamic_fleet_manager.egg-info/SOURCES.txt'
+[8.185s] writing manifest file 'dynamic_fleet_manager.egg-info/SOURCES.txt'
+[8.305s] [ 38%] Built target ament_cmake_python_build_dynamic_fleet_manager_egg
+[8.354s] [ 41%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.425s] [ 45%] [32m[1mLinking CXX shared library libdynamic_fleet_manager__rosidl_typesupport_introspection_cpp.so[0m
+[8.763s] [ 45%] Built target dynamic_fleet_manager__rosidl_typesupport_introspection_cpp
+[8.787s] [ 48%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[9.158s] [ 51%] [32mBuilding CXX object CMakeFiles/dynamic_fleet_manager__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dynamic_fleet_manager/action/detail/fleet_management__type_support_c.cpp.o[0m
+[9.367s] [ 54%] [32mBuilding C object CMakeFiles/dynamic_fleet_manager__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dynamic_fleet_manager/action/detail/fleet_management__type_support.c.o[0m
+[9.460s] [ 58%] [32m[1mLinking C shared library libdynamic_fleet_manager__rosidl_typesupport_introspection_c.so[0m
+[9.518s] [ 58%] Built target dynamic_fleet_manager__rosidl_typesupport_introspection_c
+[9.531s] [ 61%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[9.740s] [ 64%] [32m[1mLinking CXX shared library libdynamic_fleet_manager__rosidl_typesupport_fastrtps_c.so[0m
+[9.916s] [ 64%] Built target dynamic_fleet_manager__rosidl_typesupport_fastrtps_c
+[9.968s] [ 67%] [32mBuilding CXX object CMakeFiles/dynamic_fleet_manager__rosidl_typesupport_c.dir/rosidl_typesupport_c/dynamic_fleet_manager/action/fleet_management__type_support.cpp.o[0m
+[10.039s] [ 70%] [32m[1mLinking CXX shared library libdynamic_fleet_manager__rosidl_typesupport_c.so[0m
+[10.120s] [ 70%] Built target dynamic_fleet_manager__rosidl_typesupport_c
+[10.154s] [ 70%] Built target dynamic_fleet_manager
+[10.196s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[10.976s] [ 74%] Built target dynamic_fleet_manager__py
+[11.010s] [ 77%] [32mBuilding C object CMakeFiles/dynamic_fleet_manager__rosidl_generator_py.dir/rosidl_generator_py/dynamic_fleet_manager/action/_fleet_management_s.c.o[0m
+[11.165s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/dynamic_fleet_manager/libdynamic_fleet_manager__rosidl_generator_py.so[0m
+[11.228s] [ 80%] Built target dynamic_fleet_manager__rosidl_generator_py
+[11.263s] [ 83%] [32mBuilding C object CMakeFiles/dynamic_fleet_manager__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/dynamic_fleet_manager/_dynamic_fleet_manager_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[11.276s] [ 87%] [32mBuilding C object CMakeFiles/dynamic_fleet_manager__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dynamic_fleet_manager/_dynamic_fleet_manager_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[11.429s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/dynamic_fleet_manager/dynamic_fleet_manager_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.472s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/dynamic_fleet_manager/dynamic_fleet_manager_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.481s] [ 93%] Built target dynamic_fleet_manager__rosidl_typesupport_introspection_c__pyext
+[11.519s] [ 96%] [32mBuilding C object CMakeFiles/dynamic_fleet_manager__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dynamic_fleet_manager/_dynamic_fleet_manager_s.ep.rosidl_typesupport_c.c.o[0m
+[11.535s] [ 96%] Built target dynamic_fleet_manager__rosidl_typesupport_fastrtps_c__pyext
+[11.655s] [100%] [32m[1mLinking C shared library rosidl_generator_py/dynamic_fleet_manager/dynamic_fleet_manager_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.709s] [100%] Built target dynamic_fleet_manager__rosidl_typesupport_c__pyext
+[11.729s] Invoked command in '/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/build/dynamic_fleet_manager' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/build/dynamic_fleet_manager -- -j2 -l2
+[11.877s] Invoking command in '/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/build/dynamic_fleet_manager': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/build/dynamic_fleet_manager
+[11.887s] -- Install configuration: ""
+[11.888s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/ament_index/resource_index/rosidl_interfaces/dynamic_fleet_manager
+[11.889s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager
+[11.890s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action
+[11.891s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/detail
+[11.892s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/detail/fleet_management__type_support.h
+[11.900s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/detail/fleet_management__functions.c
+[11.901s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/detail/fleet_management__functions.h
+[11.903s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/detail/fleet_management__struct.h
+[11.903s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/fleet_management.h
+[11.904s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/msg
+[11.904s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/msg/rosidl_generator_c__visibility_control.h
+[11.905s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/environment/library_path.sh
+[11.906s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/environment/library_path.dsv
+[11.907s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/lib/libdynamic_fleet_manager__rosidl_generator_c.so
+[11.908s] -- Set runtime path of "/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/lib/libdynamic_fleet_manager__rosidl_generator_c.so" to ""
+[11.909s] -- Up-to-date: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager
+[11.909s] -- Up-to-date: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action
+[11.909s] -- Up-to-date: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/detail
+[11.910s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/detail/fleet_management__rosidl_typesupport_fastrtps_c.h
+[11.910s] -- Up-to-date: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/msg
+[11.910s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.911s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/lib/libdynamic_fleet_manager__rosidl_typesupport_fastrtps_c.so
+[11.911s] -- Set runtime path of "/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/lib/libdynamic_fleet_manager__rosidl_typesupport_fastrtps_c.so" to ""
+[11.912s] -- Up-to-date: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager
+[11.912s] -- Up-to-date: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action
+[11.912s] -- Up-to-date: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/detail
+[11.912s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/detail/fleet_management__rosidl_typesupport_introspection_c.h
+[11.913s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/detail/fleet_management__type_support.c
+[11.913s] -- Up-to-date: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/msg
+[11.914s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.914s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/lib/libdynamic_fleet_manager__rosidl_typesupport_introspection_c.so
+[11.915s] -- Set runtime path of "/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/lib/libdynamic_fleet_manager__rosidl_typesupport_introspection_c.so" to ""
+[11.915s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/lib/libdynamic_fleet_manager__rosidl_typesupport_c.so
+[11.915s] -- Set runtime path of "/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/lib/libdynamic_fleet_manager__rosidl_typesupport_c.so" to ""
+[11.916s] -- Up-to-date: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager
+[11.916s] -- Up-to-date: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action
+[11.916s] -- Up-to-date: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/detail
+[11.916s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/detail/fleet_management__traits.hpp
+[11.917s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/detail/fleet_management__struct.hpp
+[11.917s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/detail/fleet_management__builder.hpp
+[11.918s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/fleet_management.hpp
+[11.918s] -- Up-to-date: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager
+[11.918s] -- Up-to-date: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action
+[11.918s] -- Up-to-date: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/detail
+[11.919s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/detail/dds_fastrtps
+[11.919s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/detail/fleet_management__rosidl_typesupport_fastrtps_cpp.hpp
+[11.919s] -- Up-to-date: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/msg
+[11.920s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.920s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/lib/libdynamic_fleet_manager__rosidl_typesupport_fastrtps_cpp.so
+[11.921s] -- Set runtime path of "/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/lib/libdynamic_fleet_manager__rosidl_typesupport_fastrtps_cpp.so" to ""
+[11.921s] -- Up-to-date: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager
+[11.921s] -- Up-to-date: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action
+[11.922s] -- Up-to-date: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/detail
+[11.922s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/detail/fleet_management__rosidl_typesupport_introspection_cpp.hpp
+[11.922s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/include/dynamic_fleet_manager/dynamic_fleet_manager/action/detail/fleet_management__type_support.cpp
+[11.923s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/lib/libdynamic_fleet_manager__rosidl_typesupport_introspection_cpp.so
+[11.924s] -- Set runtime path of "/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/lib/libdynamic_fleet_manager__rosidl_typesupport_introspection_cpp.so" to ""
+[11.924s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/lib/libdynamic_fleet_manager__rosidl_typesupport_cpp.so
+[11.925s] -- Set runtime path of "/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/lib/libdynamic_fleet_manager__rosidl_typesupport_cpp.so" to ""
+[11.925s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/environment/pythonpath.sh
+[11.925s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/environment/pythonpath.dsv
+[11.926s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager-0.1.0-py3.10.egg-info
+[11.926s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager-0.1.0-py3.10.egg-info/PKG-INFO
+[11.926s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager-0.1.0-py3.10.egg-info/top_level.txt
+[11.927s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager-0.1.0-py3.10.egg-info/dependency_links.txt
+[11.927s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager-0.1.0-py3.10.egg-info/SOURCES.txt
+[11.927s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager
+[11.928s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/action
+[11.928s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/action/_fleet_management.py
+[11.928s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/action/_fleet_management_s.c
+[11.929s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/action/__init__.py
+[11.929s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/_dynamic_fleet_manager_s.ep.rosidl_typesupport_c.c
+[11.930s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/_dynamic_fleet_manager_s.ep.rosidl_typesupport_introspection_c.c
+[11.930s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/dynamic_fleet_manager_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.930s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/dynamic_fleet_manager_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.931s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/__init__.py
+[11.931s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/_dynamic_fleet_manager_s.ep.rosidl_typesupport_fastrtps_c.c
+[11.931s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/libdynamic_fleet_manager__rosidl_generator_py.so
+[11.932s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/dynamic_fleet_manager_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.982s] Listing '/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager'...
+[11.982s] Compiling '/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/__init__.py'...
+[11.982s] Listing '/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/action'...
+[11.982s] Compiling '/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/action/__init__.py'...
+[11.982s] Compiling '/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/action/_fleet_management.py'...
+[11.989s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/dynamic_fleet_manager_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.990s] -- Set runtime path of "/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/dynamic_fleet_manager_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.990s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/dynamic_fleet_manager_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.992s] -- Set runtime path of "/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/dynamic_fleet_manager_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.992s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/dynamic_fleet_manager_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.993s] -- Set runtime path of "/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/local/lib/python3.10/dist-packages/dynamic_fleet_manager/dynamic_fleet_manager_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.994s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/lib/libdynamic_fleet_manager__rosidl_generator_py.so
+[11.995s] -- Set runtime path of "/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/lib/libdynamic_fleet_manager__rosidl_generator_py.so" to ""
+[11.996s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/action/FleetManagement.idl
+[11.997s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/action/FleetManagement.action
+[11.998s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/ament_index/resource_index/package_run_dependencies/dynamic_fleet_manager
+[11.998s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/ament_index/resource_index/parent_prefix_path/dynamic_fleet_manager
+[11.999s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/environment/ament_prefix_path.sh
+[11.999s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/environment/ament_prefix_path.dsv
+[12.000s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/environment/path.sh
+[12.001s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/environment/path.dsv
+[12.001s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/local_setup.bash
+[12.001s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/local_setup.sh
+[12.002s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/local_setup.zsh
+[12.003s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/local_setup.dsv
+[12.004s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/package.dsv
+[12.004s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/ament_index/resource_index/packages/dynamic_fleet_manager
+[12.005s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/export_dynamic_fleet_manager__rosidl_generator_cExport.cmake
+[12.005s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/export_dynamic_fleet_manager__rosidl_generator_cExport-noconfig.cmake
+[12.006s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/export_dynamic_fleet_manager__rosidl_typesupport_fastrtps_cExport.cmake
+[12.006s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/export_dynamic_fleet_manager__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[12.006s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/dynamic_fleet_manager__rosidl_typesupport_introspection_cExport.cmake
+[12.007s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/dynamic_fleet_manager__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.007s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/dynamic_fleet_manager__rosidl_typesupport_cExport.cmake
+[12.008s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/dynamic_fleet_manager__rosidl_typesupport_cExport-noconfig.cmake
+[12.008s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/export_dynamic_fleet_manager__rosidl_generator_cppExport.cmake
+[12.009s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/export_dynamic_fleet_manager__rosidl_typesupport_fastrtps_cppExport.cmake
+[12.009s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/export_dynamic_fleet_manager__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[12.010s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/dynamic_fleet_manager__rosidl_typesupport_introspection_cppExport.cmake
+[12.010s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/dynamic_fleet_manager__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.010s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/dynamic_fleet_manager__rosidl_typesupport_cppExport.cmake
+[12.011s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/dynamic_fleet_manager__rosidl_typesupport_cppExport-noconfig.cmake
+[12.011s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/export_dynamic_fleet_manager__rosidl_generator_pyExport.cmake
+[12.011s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/export_dynamic_fleet_manager__rosidl_generator_pyExport-noconfig.cmake
+[12.012s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/rosidl_cmake-extras.cmake
+[12.013s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.013s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.014s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/ament_cmake_export_libraries-extras.cmake
+[12.014s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/ament_cmake_export_targets-extras.cmake
+[12.015s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.015s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.015s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/dynamic_fleet_managerConfig.cmake
+[12.016s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/cmake/dynamic_fleet_managerConfig-version.cmake
+[12.016s] -- Installing: /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/install/dynamic_fleet_manager/share/dynamic_fleet_manager/package.xml
+[12.032s] Invoked command in '/home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/build/dynamic_fleet_manager' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jamshid/Desktop/SME-Lab/Mid-Term_Project/ros2_ws/build/dynamic_fleet_manager

@@ -1,0 +1,6 @@
+setup.py
+dynamic_fleet_manager/__init__.py
+dynamic_fleet_manager.egg-info/PKG-INFO
+dynamic_fleet_manager.egg-info/SOURCES.txt
+dynamic_fleet_manager.egg-info/dependency_links.txt
+dynamic_fleet_manager.egg-info/top_level.txt
