@@ -149,9 +149,50 @@ The Smart Home ROS Client and Server leverages the ROS 2 Action API to manage ap
 <hr/>
 # Week 8 | Mid-Term Assignment | Dynamic Fleet Manager
 
-### Purpose
+## Purpose
 <p>This project aims to streamline fleet management tasks using ROS2, making it accessible via a user-friendly CLI and providing comprehensive documentation for users.
 </description></p>
+
+## The project consists of three main components:
+
+1. **Fleet Management Action Server:**
+   - Provides an Action Server for fleet management tasks.
+   - Handles incoming fleet management requests from clients.
+   - Generates real-time feedback for clients to monitor the progress of tasks.
+   - Calculates and delivers results to clients upon task completion.
+
+2. **Fleet Management Action Client:**
+   - Interacts with users through a command-line interface.
+   - Sends fleet management requests to the server.
+   - Receives and displays real-time feedback on task progress.
+   - Handles and displays results once the task is successfully completed.
+
+3. **Fleet Management Action:**
+   - Defines a custom action for fleet management tasks.
+   - Contains two main components: Goal and Feedback.
+   
+   - **Goal:**
+     - Represents the user's request for fleet management.
+     - Consists of an array of fleet data entries, where each entry includes:
+       - Departure city
+       - Destination city
+       - Weight of the delivery in tons.
+
+   - **Feedback:**
+     - Provides real-time updates on the progress of fleet management tasks.
+     - Includes a completion percentage to track task execution.
+
+   - **Result:**
+     - Represents the outcome of the fleet management task.
+     - Contains:
+       - Departure city
+       - Destination city
+       - Estimated time in hours
+       - Estimated price in USD
+       - Delivery tracking link.
+
+   - The Fleet Management Action defines the structure for communication between the Fleet Management Server and Client nodes, facilitating the execution of logistics tasks with real-time feedback.
+
 
 ### Task 1
 ![FleetManagement.action](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/4bb1fa0f-21fd-467e-abf1-6234b4b2a6cd)
@@ -173,6 +214,74 @@ The Smart Home ROS Client and Server leverages the ROS 2 Action API to manage ap
 ### Project Structure
 
 ![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/9253911f-1562-40ea-a6b4-b6cd52c0b3d1)
+
+# Testing with Scenarios
+
+## 1) Example Fleet Management Scenario | Seoul ---> Incheon
+
+**Goal:**
+- The user initiates a fleet management request from **Seoul** to **Incheon** with a substantial cargo of **50 tons**.
+- The user specifies the following details in the goal:
+  - Departure city: Seoul
+  - Destination city: Incheon
+  - Weight of the delivery: 50 tons.
+
+**Feedback:**
+- The **Fleet Management Server** processes the request.
+- The server provides real-time feedback to the client, updating the completion percentage.
+- As the task progresses, the completion percentage increases, indicating the movement of the substantial 50-ton delivery fleet.
+
+**Result:**
+- Upon successful completion of the task, the server sends the result back to the client.
+- The result contains essential information about the logistics task:
+  - Departure city: Seoul
+  - Destination city: Incheon
+  - Estimated time for delivery: 1 hours
+  - Estimated price: $464
+  - Delivery tracking link: [Example Tracking Link](https://example-tracking-link/seoul-incheon-50-tons-delivery).
+
+This scenario showcases the flexibility of the Fleet Management Action to handle larger cargo loads, in this case, a 50-ton delivery, from Seoul to Incheon, providing accurate estimates and real-time tracking.
+
+### Photo Snapshots:
+
+![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/511406ac-f2a7-4c83-aeb2-6da232b88c8f)
+
+![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/f457f5d4-630b-4463-b75b-372cb0c271ee)
+
+
+## 2) Example Fleet Management Scenario | Busan ---> Suwon
+
+**Goal:**
+- The user initiates a fleet management request from **Pusan** to **Suwon**.
+- The user specifies the following details in the goal:
+  - Departure city: Pusan
+  - Destination city: Suwon
+  - Weight of the delivery: 25 tons.
+
+**Feedback:**
+- The **Fleet Management Server** processes the request.
+- The server provides real-time feedback to the client, updating the completion percentage.
+- As the task progresses, the completion percentage increases, indicating the movement of the 25-ton delivery fleet from Pusan to Suwon.
+
+**Result:**
+- Upon successful completion of the task, the server sends the result back to the client.
+- The result contains essential information about the logistics task:
+  - Departure city: Pusan
+  - Destination city: Suwon
+  - Estimated time for delivery: 5 hours
+  - Estimated price: $5152
+  - Delivery tracking link: [Example Tracking Link](https://example-tracking-link/pusan-suwon-25-tons-delivery).
+
+This scenario demonstrates the Fleet Management Action's ability to handle cargo delivery tasks, in this case, a 25-ton delivery, from Pusan to Suwon, providing real-time feedback and accurate estimates.
+
+### Photo Snapshots:
+
+![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/d5f80624-e824-4abe-b029-8d7afd12129e)
+
+![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/0fb355de-8d88-4642-a3ed-21b68ed474b6)
+
+
+
 
 
 
