@@ -146,12 +146,37 @@ The Smart Home ROS Client and Server leverages the ROS 2 Action API to manage ap
 ## Interaction Diagram | Smart Home Ros2:
 ![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/8bb1d70d-a88d-4233-b6e4-20456f353b16)
 
+<hr/>
+# Week 8 | Mid-Term Assignment | Dynamic Fleet Manager
 
+### Purpose
+<p>This project aims to streamline fleet management tasks using ROS2, making it accessible via a user-friendly CLI and providing comprehensive documentation for users.
+</description></p>
 
-# Week 8 | Mid-Term Assignment | Dynamic Fleet Manager | 12200335 Jamshid Ganiev
-
-
+### Task 1
 ![FleetManagement.action](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/4bb1fa0f-21fd-467e-abf1-6234b4b2a6cd)
+
+### Task 2 & 3
+
+![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/9c629628-6fcf-4198-9905-24495dbf3145)
+
+![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/394182e9-9e0a-4e5a-b678-39e9a02981b9)
+
+### Task 4 | A professional Command Line Interface has been created using 'click' library in Python
+
+![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/764716b8-80a0-4c4c-84fe-bfc9a4fd30d1)
+
+#### CLI Outline:
+![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/4dfe4825-d1a0-4015-bd2e-55140c3b7b7b)
+
+
+### Project Structure
+
+![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/9253911f-1562-40ea-a6b4-b6cd52c0b3d1)
+
+
+
+
 
 
 
