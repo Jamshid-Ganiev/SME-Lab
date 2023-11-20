@@ -147,6 +147,7 @@ The Smart Home ROS Client and Server leverages the ROS 2 Action API to manage ap
 ![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/8bb1d70d-a88d-4233-b6e4-20456f353b16)
 
 <hr/>
+
 # Week 8 | Mid-Term Assignment | Dynamic Fleet Manager
 
 ## Purpose
