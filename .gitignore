@@ -1,0 +1,3 @@
+# Ignore untracked files and directories
+install/
+log/
