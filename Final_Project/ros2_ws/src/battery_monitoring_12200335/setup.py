@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'battery_monitoring_12200335 = battery_monitoring_12200335.battery_state_checker:main',
+            'battery_checker = battery_monitoring_12200335.battery_state_checker:main'
         ],
     },
 )
