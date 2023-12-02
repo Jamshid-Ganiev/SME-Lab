@@ -16,32 +16,36 @@ class BatteryStateChecker(Node):
             self.battery_state_callback,
             10)
         self.timer = self.create_timer(30.0, self.timer_callback)
+        self.last_battery_percentage = None
 
     def battery_state_callback(self, msg):
         # Extracting relevant information from the BatteryState message
         battery_percentage = math.floor(msg.percentage)
-        charging_state = "yes" if msg.power_supply_status == 1 else "no"
+        charging_state = self.get_charging_state(battery_percentage)
 
         # Printing battery percentage and charging state
         self.get_logger().info(f"Battery Percentage: {battery_percentage}%")
         self.get_logger().info(f"Charging State: {charging_state}\n")
 
-        # Store the last received battery state message for later use in the timer callback
-        self.last_battery_msg = msg
+        # Store the current battery percentage for later use in the timer callback
+        self.last_battery_percentage = battery_percentage
+
+    def get_charging_state(self, current_percentage):
+        # Compare with the previous battery percentage to determine charging state
+        if self.last_battery_percentage is not None and current_percentage > self.last_battery_percentage:
+            return "yes"
+        else:
+            return "no"
 
     def timer_callback(self):
-        # Print updated battery info
-        self.get_logger().info("Updated battery info:")
-
-        # Check if there is a stored battery message from the last callback
-        if hasattr(self, 'last_battery_msg'):
-            battery_percentage = math.floor(self.last_battery_msg.percentage)
-            charging_state = "yes" if self.last_battery_msg.power_supply_status == 1 else "no"
+        # Print updated battery info every 30 seconds
+        if hasattr(self, 'last_battery_percentage'):
+            battery_percentage = self.last_battery_percentage
+            charging_state = self.get_charging_state(battery_percentage)
             
+            self.get_logger().info("Updated battery info:")
             self.get_logger().info(f"1- Battery Percentage: {battery_percentage}%")
             self.get_logger().info(f"2- Charging State: {charging_state}\n")
-        else:
-            self.get_logger().info("No recent battery state information.")
 
 def main(args=None):
     rclpy.init(args=args)
