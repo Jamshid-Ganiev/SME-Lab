@@ -2,13 +2,13 @@ import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import BatteryState
 import math
-import time
 import click
 
+"""
+    This function was made by Jamshidjon Ganiev | 12200335
+"""
+
 class BatteryStateChecker(Node):
-    """
-        This function was made by Jamshidjon Ganiev | 12200335.
-    """
     def __init__(self, topic_name):
         super().__init__('battery_state_checker')
         self.subscription = self.create_subscription(
