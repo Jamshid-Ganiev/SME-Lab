@@ -2,12 +2,9 @@ import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import BatteryState
 import math
+import time
 
 class BatteryStateChecker(Node):
-    """
-    This function is made by Jamshidjon Ganiev | 12200335
-    """
-
     def __init__(self):
         super().__init__('battery_state_checker')
         self.subscription = self.create_subscription(
@@ -20,42 +17,39 @@ class BatteryStateChecker(Node):
         self.last_battery_percentage = None
 
     def battery_state_callback(self, msg):
-        # Extracting relevant information from the BatteryState message
         battery_percentage = math.floor(msg.percentage)
         charging_state = self.get_charging_state(battery_percentage)
 
-        # Printing battery percentage and charging state
-        self.get_logger().info(f"Battery Percentage: {battery_percentage}%")
-        self.get_logger().info(f"Charging State: {charging_state}\n")
+        # Prints initial battery info only once
+        if self.message_counter == 0:
+            self.get_logger().info(f"Initial Battery Percentage: {battery_percentage}%")
+            self.get_logger().info(f"Initial Charging State: {charging_state}\n")
+            self.message_counter += 1
+        else:
+            self.get_logger().info(f"Battery Percentage: {battery_percentage}%")
+            self.get_logger().info(f"Charging State: {charging_state}\n")
 
-        # Storeing the current battery percentage for later use in the timer callback
         self.last_battery_percentage = battery_percentage
-        self.message_counter += 1
-
-        # Printing initial battery info and reset the timer only once
-        if self.message_counter == 1:
-            self.timer.reset()
 
     def get_charging_state(self, current_percentage):
-        # Comparing with the previous battery percentage to determine charging state
         if self.last_battery_percentage is not None and current_percentage > self.last_battery_percentage:
             return "yes"
         else:
             return "no"
 
     def timer_callback(self):
-        # Printing updated battery info every 30 seconds
+        time.sleep(30)  # Waits for 30 seconds before printing the updated battery info
+
         if hasattr(self, 'last_battery_percentage'):
             battery_percentage = self.last_battery_percentage
             charging_state = self.get_charging_state(battery_percentage)
-            
+
             self.get_logger().info("Updated battery info:")
             self.get_logger().info(f"1- Battery Percentage: {battery_percentage}%")
             self.get_logger().info(f"2- Charging State: {charging_state}\n")
 
 def main(args=None):
     rclpy.init(args=args)
-
     battery_state_checker = BatteryStateChecker()
 
     try:
