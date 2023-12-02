@@ -16,7 +16,9 @@ class BatteryStateChecker(Node):
             self.battery_state_callback,
             10)
         self.timer = self.create_timer(30.0, self.timer_callback)
+        self.message_counter = 0
         self.last_battery_percentage = None
+        self.initial_battery_info_printed = False
 
     def battery_state_callback(self, msg):
         # Extracting relevant information from the BatteryState message
@@ -27,11 +29,18 @@ class BatteryStateChecker(Node):
         self.get_logger().info(f"Battery Percentage: {battery_percentage}%")
         self.get_logger().info(f"Charging State: {charging_state}\n")
 
-        # Store the current battery percentage for later use in the timer callback
+        # Storing the current battery percentage for later use in the timer callback
         self.last_battery_percentage = battery_percentage
+        self.message_counter += 1
+
+        # Printing initial battery info only once
+        if not self.initial_battery_info_printed:
+            self.initial_battery_info_printed = True
+            self.timer_callback()
 
     def get_charging_state(self, current_percentage):
-        # Compare with the previous battery percentage to determine charging state
+
+        # Compareing with the previous battery percentage to determine charging state
         if self.last_battery_percentage is not None and current_percentage > self.last_battery_percentage:
             return "yes"
         else:
@@ -39,11 +48,11 @@ class BatteryStateChecker(Node):
 
     def timer_callback(self):
         # Print updated battery info every 30 seconds
-        if hasattr(self, 'last_battery_percentage'):
+        if hasattr(self, 'last_battery_percentage') and self.initial_battery_info_printed:
             battery_percentage = self.last_battery_percentage
             charging_state = self.get_charging_state(battery_percentage)
             
-            self.get_logger().info("Updated battery info:")
+            self.get_logger().info("==== Updated battery info:")
             self.get_logger().info(f"1- Battery Percentage: {battery_percentage}%")
             self.get_logger().info(f"2- Charging State: {charging_state}\n")
 
