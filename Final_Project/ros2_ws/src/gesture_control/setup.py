@@ -20,6 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'gesture_publisher = gesture_control.gesture_publisher:main',
+            'gesture_subscriber = gesture_control.gesture_subscriber:main'
         ],
     },
 )

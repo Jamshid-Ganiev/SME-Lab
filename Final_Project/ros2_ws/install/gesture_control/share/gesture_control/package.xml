@@ -3,8 +3,8 @@
 <package format="3">
   <name>gesture_control</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="james@todo.todo">james</maintainer>
+  <description>Controlling turtlebot via hand gestures. This project was made by Jamshidjon and Akash</description>
+  <maintainer email="12200335@inha.edu">james</maintainer>
   <license>TODO: License declaration</license>
 
   <test_depend>ament_copyright</test_depend>

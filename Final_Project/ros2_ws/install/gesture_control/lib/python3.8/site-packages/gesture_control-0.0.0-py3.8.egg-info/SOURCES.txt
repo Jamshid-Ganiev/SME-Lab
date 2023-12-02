@@ -9,6 +9,9 @@ setup.py
 ../../build/gesture_control/gesture_control.egg-info/top_level.txt
 ../../build/gesture_control/gesture_control.egg-info/zip-safe
 gesture_control/__init__.py
+gesture_control/gesture_detector.py
+gesture_control/gesture_publisher.py
+gesture_control/gesture_subscriber.py
 resource/gesture_control
 test/test_copyright.py
 test/test_flake8.py
