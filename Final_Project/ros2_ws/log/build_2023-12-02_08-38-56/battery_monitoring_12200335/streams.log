@@ -1,0 +1,24 @@
+[1.953s] Invoking command in '/home/james/Desktop/SME-Lab/Final_Project/ros2_ws/src/battery_monitoring_12200335': PYTHONPATH=/home/james/Desktop/SME-Lab/Final_Project/ros2_ws/build/battery_monitoring_12200335/prefix_override:/home/james/Desktop/SME-Lab/Final_Project/ros2_ws/install/battery_monitoring_12200335/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/battery_monitoring_12200335 build --build-base /home/james/Desktop/SME-Lab/Final_Project/ros2_ws/build/battery_monitoring_12200335/build install --record /home/james/Desktop/SME-Lab/Final_Project/ros2_ws/build/battery_monitoring_12200335/install.log --install-scripts $base/lib/battery_monitoring_12200335 --single-version-externally-managed
+[2.406s] running egg_info
+[2.407s] writing ../../build/battery_monitoring_12200335/battery_monitoring_12200335.egg-info/PKG-INFO
+[2.409s] writing dependency_links to ../../build/battery_monitoring_12200335/battery_monitoring_12200335.egg-info/dependency_links.txt
+[2.410s] writing entry points to ../../build/battery_monitoring_12200335/battery_monitoring_12200335.egg-info/entry_points.txt
+[2.411s] writing requirements to ../../build/battery_monitoring_12200335/battery_monitoring_12200335.egg-info/requires.txt
+[2.412s] writing top-level names to ../../build/battery_monitoring_12200335/battery_monitoring_12200335.egg-info/top_level.txt
+[2.491s] reading manifest file '../../build/battery_monitoring_12200335/battery_monitoring_12200335.egg-info/SOURCES.txt'
+[2.497s] writing manifest file '../../build/battery_monitoring_12200335/battery_monitoring_12200335.egg-info/SOURCES.txt'
+[2.498s] running build
+[2.502s] running build_py
+[2.511s] copying battery_monitoring_12200335/battery_state_checker.py -> /home/james/Desktop/SME-Lab/Final_Project/ros2_ws/build/battery_monitoring_12200335/build/lib/battery_monitoring_12200335
+[2.512s] running install
+[2.514s] running install_lib
+[2.518s] copying /home/james/Desktop/SME-Lab/Final_Project/ros2_ws/build/battery_monitoring_12200335/build/lib/battery_monitoring_12200335/battery_state_checker.py -> /home/james/Desktop/SME-Lab/Final_Project/ros2_ws/install/battery_monitoring_12200335/lib/python3.8/site-packages/battery_monitoring_12200335
+[2.523s] byte-compiling /home/james/Desktop/SME-Lab/Final_Project/ros2_ws/install/battery_monitoring_12200335/lib/python3.8/site-packages/battery_monitoring_12200335/battery_state_checker.py to battery_state_checker.cpython-38.pyc
+[2.533s] running install_data
+[2.534s] running install_egg_info
+[2.543s] removing '/home/james/Desktop/SME-Lab/Final_Project/ros2_ws/install/battery_monitoring_12200335/lib/python3.8/site-packages/battery_monitoring_12200335-0.0.0-py3.8.egg-info' (and everything under it)
+[2.559s] Copying ../../build/battery_monitoring_12200335/battery_monitoring_12200335.egg-info to /home/james/Desktop/SME-Lab/Final_Project/ros2_ws/install/battery_monitoring_12200335/lib/python3.8/site-packages/battery_monitoring_12200335-0.0.0-py3.8.egg-info
+[2.570s] running install_scripts
+[2.616s] Installing battery_checker script to /home/james/Desktop/SME-Lab/Final_Project/ros2_ws/install/battery_monitoring_12200335/lib/battery_monitoring_12200335
+[2.616s] writing list of installed files to '/home/james/Desktop/SME-Lab/Final_Project/ros2_ws/build/battery_monitoring_12200335/install.log'
+[2.848s] Invoked command in '/home/james/Desktop/SME-Lab/Final_Project/ros2_ws/src/battery_monitoring_12200335' returned '0': PYTHONPATH=/home/james/Desktop/SME-Lab/Final_Project/ros2_ws/build/battery_monitoring_12200335/prefix_override:/home/james/Desktop/SME-Lab/Final_Project/ros2_ws/install/battery_monitoring_12200335/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/battery_monitoring_12200335 build --build-base /home/james/Desktop/SME-Lab/Final_Project/ros2_ws/build/battery_monitoring_12200335/build install --record /home/james/Desktop/SME-Lab/Final_Project/ros2_ws/build/battery_monitoring_12200335/install.log --install-scripts $base/lib/battery_monitoring_12200335 --single-version-externally-managed
