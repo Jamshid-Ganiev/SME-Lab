@@ -35,7 +35,7 @@ class BatteryStateChecker(Node):
 
     def get_charging_state(self, current_percentage):
         # Compares with the previous battery percentage to determine charging state
-        if (self.last_battery_percentage is not None) and (current_percentage > (self.last_battery_percentage - 1)):
+        if (self.last_battery_percentage is not None) and (current_percentage > self.last_battery_percentage):
             return "yes"
         else:
             return "no"
