@@ -1,0 +1,21 @@
+[1.218s] Invoking command in '/home/james/Desktop/SME-Lab/Final_Project/ros2_ws/src/battery_monitoring_12200335': PYTHONPATH=/home/james/Desktop/SME-Lab/Final_Project/ros2_ws/build/battery_monitoring_12200335/prefix_override:/home/james/Desktop/SME-Lab/Final_Project/ros2_ws/install/battery_monitoring_12200335/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/battery_monitoring_12200335 build --build-base /home/james/Desktop/SME-Lab/Final_Project/ros2_ws/build/battery_monitoring_12200335/build install --record /home/james/Desktop/SME-Lab/Final_Project/ros2_ws/build/battery_monitoring_12200335/install.log --install-scripts $base/lib/battery_monitoring_12200335 --single-version-externally-managed
+[1.642s] running egg_info
+[1.645s] writing ../../build/battery_monitoring_12200335/battery_monitoring_12200335.egg-info/PKG-INFO
+[1.649s] writing dependency_links to ../../build/battery_monitoring_12200335/battery_monitoring_12200335.egg-info/dependency_links.txt
+[1.653s] writing entry points to ../../build/battery_monitoring_12200335/battery_monitoring_12200335.egg-info/entry_points.txt
+[1.654s] writing requirements to ../../build/battery_monitoring_12200335/battery_monitoring_12200335.egg-info/requires.txt
+[1.655s] writing top-level names to ../../build/battery_monitoring_12200335/battery_monitoring_12200335.egg-info/top_level.txt
+[1.716s] reading manifest file '../../build/battery_monitoring_12200335/battery_monitoring_12200335.egg-info/SOURCES.txt'
+[1.719s] writing manifest file '../../build/battery_monitoring_12200335/battery_monitoring_12200335.egg-info/SOURCES.txt'
+[1.720s] running build
+[1.720s] running build_py
+[1.721s] running install
+[1.724s] running install_lib
+[1.729s] running install_data
+[1.729s] running install_egg_info
+[1.735s] removing '/home/james/Desktop/SME-Lab/Final_Project/ros2_ws/install/battery_monitoring_12200335/lib/python3.8/site-packages/battery_monitoring_12200335-0.0.0-py3.8.egg-info' (and everything under it)
+[1.735s] Copying ../../build/battery_monitoring_12200335/battery_monitoring_12200335.egg-info to /home/james/Desktop/SME-Lab/Final_Project/ros2_ws/install/battery_monitoring_12200335/lib/python3.8/site-packages/battery_monitoring_12200335-0.0.0-py3.8.egg-info
+[1.738s] running install_scripts
+[1.811s] Installing battery_monitoring_12200335 script to /home/james/Desktop/SME-Lab/Final_Project/ros2_ws/install/battery_monitoring_12200335/lib/battery_monitoring_12200335
+[1.821s] writing list of installed files to '/home/james/Desktop/SME-Lab/Final_Project/ros2_ws/build/battery_monitoring_12200335/install.log'
+[1.917s] Invoked command in '/home/james/Desktop/SME-Lab/Final_Project/ros2_ws/src/battery_monitoring_12200335' returned '0': PYTHONPATH=/home/james/Desktop/SME-Lab/Final_Project/ros2_ws/build/battery_monitoring_12200335/prefix_override:/home/james/Desktop/SME-Lab/Final_Project/ros2_ws/install/battery_monitoring_12200335/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/battery_monitoring_12200335 build --build-base /home/james/Desktop/SME-Lab/Final_Project/ros2_ws/build/battery_monitoring_12200335/build install --record /home/james/Desktop/SME-Lab/Final_Project/ros2_ws/build/battery_monitoring_12200335/install.log --install-scripts $base/lib/battery_monitoring_12200335 --single-version-externally-managed

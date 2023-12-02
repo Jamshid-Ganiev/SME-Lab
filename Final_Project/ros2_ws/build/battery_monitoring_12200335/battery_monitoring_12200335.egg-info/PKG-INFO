@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: battery-monitoring-12200335
+Version: 0.0.0
+Summary: Battery monitoring script utilizing ROS (Robot Operating System) for a TurtleBot, subscribing to a custom battery state topic, and displaying voltage, percentage, estimated runtime, and charging status.
+Home-page: UNKNOWN
+Maintainer: Jamshid Ganiev
+Maintainer-email: 12200335@inha.edu
+License: TODO: License declaration
+Description: UNKNOWN
+Platform: UNKNOWN

@@ -1,0 +1,33 @@
+[1.873s] Invoking command in '/home/james/Desktop/SME-Lab/Final_Project/ros2_ws/src/gesture_control': PYTHONPATH=/home/james/Desktop/SME-Lab/Final_Project/ros2_ws/build/gesture_control/prefix_override:/home/james/Desktop/SME-Lab/Final_Project/ros2_ws/install/gesture_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/gesture_control build --build-base /home/james/Desktop/SME-Lab/Final_Project/ros2_ws/build/gesture_control/build install --record /home/james/Desktop/SME-Lab/Final_Project/ros2_ws/build/gesture_control/install.log --install-scripts $base/lib/gesture_control --single-version-externally-managed
+[2.200s] running egg_info
+[2.202s] creating ../../build/gesture_control/gesture_control.egg-info
+[2.205s] writing ../../build/gesture_control/gesture_control.egg-info/PKG-INFO
+[2.207s] writing dependency_links to ../../build/gesture_control/gesture_control.egg-info/dependency_links.txt
+[2.209s] writing entry points to ../../build/gesture_control/gesture_control.egg-info/entry_points.txt
+[2.210s] writing requirements to ../../build/gesture_control/gesture_control.egg-info/requires.txt
+[2.212s] writing top-level names to ../../build/gesture_control/gesture_control.egg-info/top_level.txt
+[2.223s] writing manifest file '../../build/gesture_control/gesture_control.egg-info/SOURCES.txt'
+[2.335s] reading manifest file '../../build/gesture_control/gesture_control.egg-info/SOURCES.txt'
+[2.338s] writing manifest file '../../build/gesture_control/gesture_control.egg-info/SOURCES.txt'
+[2.340s] running build
+[2.342s] running build_py
+[2.343s] creating /home/james/Desktop/SME-Lab/Final_Project/ros2_ws/build/gesture_control/build
+[2.347s] creating /home/james/Desktop/SME-Lab/Final_Project/ros2_ws/build/gesture_control/build/lib
+[2.357s] creating /home/james/Desktop/SME-Lab/Final_Project/ros2_ws/build/gesture_control/build/lib/gesture_control
+[2.358s] copying gesture_control/__init__.py -> /home/james/Desktop/SME-Lab/Final_Project/ros2_ws/build/gesture_control/build/lib/gesture_control
+[2.366s] running install
+[2.366s] running install_lib
+[2.366s] creating /home/james/Desktop/SME-Lab/Final_Project/ros2_ws/install/gesture_control/lib/python3.8/site-packages/gesture_control
+[2.366s] copying /home/james/Desktop/SME-Lab/Final_Project/ros2_ws/build/gesture_control/build/lib/gesture_control/__init__.py -> /home/james/Desktop/SME-Lab/Final_Project/ros2_ws/install/gesture_control/lib/python3.8/site-packages/gesture_control
+[2.374s] byte-compiling /home/james/Desktop/SME-Lab/Final_Project/ros2_ws/install/gesture_control/lib/python3.8/site-packages/gesture_control/__init__.py to __init__.cpython-38.pyc
+[2.374s] running install_data
+[2.375s] creating /home/james/Desktop/SME-Lab/Final_Project/ros2_ws/install/gesture_control/share/ament_index
+[2.375s] creating /home/james/Desktop/SME-Lab/Final_Project/ros2_ws/install/gesture_control/share/ament_index/resource_index
+[2.375s] creating /home/james/Desktop/SME-Lab/Final_Project/ros2_ws/install/gesture_control/share/ament_index/resource_index/packages
+[2.375s] copying resource/gesture_control -> /home/james/Desktop/SME-Lab/Final_Project/ros2_ws/install/gesture_control/share/ament_index/resource_index/packages
+[2.381s] copying package.xml -> /home/james/Desktop/SME-Lab/Final_Project/ros2_ws/install/gesture_control/share/gesture_control
+[2.381s] running install_egg_info
+[2.407s] Copying ../../build/gesture_control/gesture_control.egg-info to /home/james/Desktop/SME-Lab/Final_Project/ros2_ws/install/gesture_control/lib/python3.8/site-packages/gesture_control-0.0.0-py3.8.egg-info
+[2.407s] running install_scripts
+[2.440s] writing list of installed files to '/home/james/Desktop/SME-Lab/Final_Project/ros2_ws/build/gesture_control/install.log'
+[2.591s] Invoked command in '/home/james/Desktop/SME-Lab/Final_Project/ros2_ws/src/gesture_control' returned '0': PYTHONPATH=/home/james/Desktop/SME-Lab/Final_Project/ros2_ws/build/gesture_control/prefix_override:/home/james/Desktop/SME-Lab/Final_Project/ros2_ws/install/gesture_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/gesture_control build --build-base /home/james/Desktop/SME-Lab/Final_Project/ros2_ws/build/gesture_control/build install --record /home/james/Desktop/SME-Lab/Final_Project/ros2_ws/build/gesture_control/install.log --install-scripts $base/lib/gesture_control --single-version-externally-managed
