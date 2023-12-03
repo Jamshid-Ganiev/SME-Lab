@@ -3,40 +3,53 @@ from rclpy.node import Node
 from gesture_interface.msg import GestureTopic
 from geometry_msgs.msg import Twist
 
+"""
+This gesture subscriber was made by Jamshid Ganiev | 12200335.
+It subscribes to the values published by gesture publisher (Akash's publisher node).
+"""
+
 class GestureControlNode(Node):
     def __init__(self):
         super().__init__('gesture_control_node')
         self.twist_publisher = self.create_publisher(
-            Twist, 'turtle1/cmd_vel', 10)
+            Twist, 'cmd_vel', 10)
         self.twist_msg = Twist()
 
-    def gesture_callback(self, GestureTopic):
-        
-        linear_motion = GestureTopic.linear_motion
-        angular_motion = GestureTopic.angular_motion
+        # Initializes linear and angular velocities
+        self.target_linear_velocity = 0.0
+        self.target_angular_velocity = 0.0
 
-        # Handle linear motion
+    def gesture_callback(self, gesture_topic):
+        linear_motion = gesture_topic.linear_motion
+        angular_motion = gesture_topic.angular_motion
+
+        # Here we are hanfling linear motion.
         if linear_motion == 'forward':
-            self.twist_msg.linear.x = 1.0
+            self.target_linear_velocity = 0.22
         elif linear_motion == 'backward':
-            self.twist_msg.linear.x = -1.0
+            self.target_linear_velocity = -0.22
         elif linear_motion == 'stop':
-            self.twist_msg.linear.x = 0.0
+            self.target_linear_velocity = 0.0
 
-        # Handle angular motion
+        # and herer we are handling angular motion
         if angular_motion == 'left':
-            self.twist_msg.angular.z = 1.0
+            self.target_angular_velocity = 1.82  # angular velocity for left turn
         elif angular_motion == 'right':
-            self.twist_msg.angular.z = -1.0
+            self.target_angular_velocity = -1.82  # angular velocity for right turn
         elif angular_motion == 'stop':
-            self.twist_msg.angular.z = 0.0
+            self.target_angular_velocity = 0.0
 
         # Debugging log
-        self.get_logger().info(f"Linear: {self.twist_msg.linear.x}, Angular: {self.twist_msg.angular.z}")
+        self.get_logger().info(f"Linear: {self.target_linear_velocity}, Angular: {self.target_angular_velocity}")
 
-        # Publish the Twist message
-        self.twist_publisher.publish(self.twist_msg)
+        self.publish_twist()
 
+    def publish_twist(self):
+        # Publishes Twist message with the target velocities
+        twist = Twist()
+        twist.linear.x = self.target_linear_velocity
+        twist.angular.z = self.target_angular_velocity
+        self.twist_publisher.publish(twist)
 
 def main(args=None):
     rclpy.init(args=args)
