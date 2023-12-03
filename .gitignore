@@ -1,3 +1,4 @@
 # Ignore untracked files and directories
 /Final_Project/ros2_ws/install
 /Final_Project/ros2_ws/log
+/Final_Project/ros2_ws/build
