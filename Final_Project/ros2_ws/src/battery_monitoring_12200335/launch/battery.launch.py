@@ -5,6 +5,8 @@ def generate_launch_description():
     return launch.LaunchDescription([
         launch_ros.actions.Node(
             package='battery_monitoring_12200335',
-            executable='battery_checker',
-            name='battery_checker'),
-  ])
+            executable='battery_checker',  
+            name='battery_checker',
+            output='screen',
+            arguments=['--topic', '/battery_state']),
+    ])

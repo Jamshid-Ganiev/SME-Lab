@@ -17,19 +17,28 @@ def get_gesture(img):
         # The 'draw' parameter draws landmarks and hand outlines on the image if set to True
         # The 'flipType' parameter flips the image, making it easier for some detections
         hands, img = detector.findHands(img, draw=True, flipType=True)
-      
+
+
+        gestures={'hand0_fin_idx':[],
+                  'hand0_bbox':[],
+                  'hand1_fin_idx':[],
+                  'hand1_bbox':[]}
 
         if hands:
-                hand1=hands[0]
-                finger_idx=detector.fingersUp(hand1) # list of finger (starting from thumb)
-                bbox=hand1['bbox']
+                hand0=hands[0]
+                gestures['hand0_fin_idx']=detector.fingersUp(hand0) # list of finger (starting from thumb)
+                gestures['hand0_bbox']=hand0['bbox']
+                
 
-                finger_num=[i for i in finger_idx if i!=0]
+                
 
-                return img,finger_num,bbox
+                if len(hands)==2:
+                        hand1=hands[1]
+                        gestures['hand1_fin_idx']=detector.fingersUp(hand1) # list of finger (starting from thumb)
+                        gestures['hand1_bbox']=hand1['bbox']
+                        
         
-        else: 
-                return img,None,None
+        return img,gestures
         
 
 # if __name__=='__main__':

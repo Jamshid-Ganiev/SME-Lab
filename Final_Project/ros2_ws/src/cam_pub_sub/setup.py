@@ -1,11 +1,11 @@
-from setuptools import setup
+from setuptools import find_packages, setup
 
-package_name = 'gesture_control'
+package_name = 'cam_pub_sub'
 
 setup(
     name=package_name,
     version='0.0.0',
-    packages=[package_name],
+    packages=find_packages(exclude=['test']),
     data_files=[
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
@@ -13,15 +13,16 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='james',
-    maintainer_email='james@todo.todo',
+    maintainer='akash',
+    maintainer_email='ghimireakash819@gmail.com',
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'gesture_publisher = gesture_control.gesture_publisher:main',
-            'gesture_subscriber = gesture_control.gesture_subscriber:main'
+            'cam_pub=cam_pub_sub.cam_pub:main',
+            'cam_sub=cam_pub_sub.cam_sub:main'
+
         ],
     },
 )
