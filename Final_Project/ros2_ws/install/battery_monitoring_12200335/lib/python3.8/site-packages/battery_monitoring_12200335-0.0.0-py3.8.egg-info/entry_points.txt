@@ -1,3 +1,6 @@
 [console_scripts]
 battery_checker = battery_monitoring_12200335.battery_state_checker:main
 
+[launch.frontend.launch_extension]
+launch = launch.frontend.launch:LaunchExtension
+

@@ -8,7 +8,11 @@
                and charging status.
   </description>
   <maintainer email="12200335@inha.edu">Jamshid Ganiev</maintainer>
-  <license>MIT</license>
+  <license>Apache License 2.0</license>
+  <depend>launch</depend>
+
+  <exec_depend>ros2launch</exec_depend>
+  <depend>action_msgs</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
