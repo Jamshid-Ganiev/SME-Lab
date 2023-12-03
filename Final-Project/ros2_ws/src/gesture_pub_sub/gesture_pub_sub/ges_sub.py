@@ -11,29 +11,32 @@ class GestureControlNode(Node):
         self.twist_msg = Twist()
 
     def gesture_callback(self, GestureTopic):
+        
         linear_motion = GestureTopic.linear_motion
-        angular_motion=GestureTopic.angular_motion
+        angular_motion = GestureTopic.angular_motion
 
+        # Handle linear motion
         if linear_motion == 'forward':
-            self.twist_msg.linear.x = 1.0  # Move forward
-            
+            self.twist_msg.linear.x = 1.0
         elif linear_motion == 'backward':
-            self.twist_msg.linear.x = -1.0  # Move backward
+            self.twist_msg.linear.x = -1.0
+        elif linear_motion == 'stop':
+            self.twist_msg.linear.x = 0.0
 
-        elif linear_motion=='stop':
-            self.twist_msg.linear.x=0.0
-            
-        elif angular_motion == 'left':
-            
-            self.twist_msg.angular.z = 1.0  # Rotate left
+        # Handle angular motion
+        if angular_motion == 'left':
+            self.twist_msg.angular.z = 1.0
         elif angular_motion == 'right':
-            
-            self.twist_msg.angular.z = -1.0  # Rotate right
-        elif angular_motion=='stop':
-            
+            self.twist_msg.angular.z = -1.0
+        elif angular_motion == 'stop':
             self.twist_msg.angular.z = 0.0
 
+        # Debugging log
+        self.get_logger().info(f"Linear: {self.twist_msg.linear.x}, Angular: {self.twist_msg.angular.z}")
+
+        # Publish the Twist message
         self.twist_publisher.publish(self.twist_msg)
+
 
 def main(args=None):
     rclpy.init(args=args)
