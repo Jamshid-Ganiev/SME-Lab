@@ -1,6 +1,10 @@
 # SME-Lab
 Smart Mobility Engineering Lab
 
+# Exam Projects
+
+- ## [Mid-Term Project](https://github.com/Jamshid-Ganiev/SME-Lab/blob/main/README.md#week-8--mid-term-assignment--dynamic-fleet-manager)
+
 - ## [Final Project](https://github.com/Jamshid-Ganiev/SME-Lab/tree/main/Final-Project)
 
 
