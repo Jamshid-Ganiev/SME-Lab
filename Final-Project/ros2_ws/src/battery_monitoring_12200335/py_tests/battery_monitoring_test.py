@@ -3,7 +3,7 @@ import rclpy
 from rclpy.qos import QoSProfile
 from std_msgs.msg import Header
 from sensor_msgs.msg import BatteryState
-from your_module_name import BatteryStateChecker
+from battery_monitoring_12200335 import BatteryStateChecker
 
 @pytest.fixture
 def ros_node():
@@ -14,7 +14,7 @@ def ros_node():
     rclpy.shutdown()
 
 def test_battery_state_checker(ros_node):
-    topic_name = '/test_battery_state'
+    topic_name = '/battery_state'
     battery_state_checker = BatteryStateChecker(topic_name)
     qos_profile = QoSProfile(depth=10)
 

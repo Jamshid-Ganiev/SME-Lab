@@ -1,6 +1,6 @@
 import cv2
 from unittest.mock import patch, MagicMock
-from ges_pub_sub.ges_pub import ges_pub
+from ges_pub_sub.ges_sub import ges_pub
 
 @patch("cv2.VideoCapture")
 @patch("ges_pub_sub.ges_pub.get_gesture")
