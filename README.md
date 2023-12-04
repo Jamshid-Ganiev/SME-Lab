@@ -1,7 +1,7 @@
 # SME-Lab
 Smart Mobility Engineering Lab
 
-- ## ![Final Project](https://github.com/Jamshid-Ganiev/SME-Lab/tree/main/Final-Project)
+- ## [Final Project](https://github.com/Jamshid-Ganiev/SME-Lab/tree/main/Final-Project)
 
 
 ## Week 2 | Ubuntu Installation:
