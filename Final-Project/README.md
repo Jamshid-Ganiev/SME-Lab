@@ -1,5 +1,7 @@
 # Team D | Jamshidjon Ganiev (12200335)
 
+[GitHub Link to Team Project Repository ](https://github.com/Jamshid-Ganiev/Team-D_group_project)
+
 ## SLAM and Navigation
 ### Snapshots
 
@@ -91,7 +93,35 @@ if __name__ == '__main__':
 ```
 
 - launch file:
+  
   ![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/a00be90a-aff9-4050-abb5-72b20bd1ba7d)
+
+- click library for CLI:
+
+  ![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/1b07534f-baa3-4f74-891a-1cd36c14553f)
+
+- py tests:
+
+  ![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/cc260012-2c00-4e4b-ada4-17feeb3720d9)
+
+- ros bag file:
+
+ ![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/15aac21a-d71e-48e6-8198-ab1f0573e961)
 
 
 ## Gesture Control Subscirber Node
+### Project Structure:
+![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/e9788e64-41c5-408e-866d-ac4b9ab657b0)
+
+- launch file:
+
+![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/e83d2ccd-c889-418c-a3bb-0d3013635b3b)
+
+
+- ros bag files:
+
+  ![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/6c003b6a-6fe7-4193-a6a5-cade8052549c)
+
+- py tests:
+
+  ![image](https://github.com/Jamshid-Ganiev/SME-Lab/assets/84252587/b99ae4e3-bb92-45af-8704-f31f51e5ccad)
